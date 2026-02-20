@@ -4,7 +4,7 @@
   "spec": {
     "pitch": "3/8",
     "gauge": "1.5mm / .058",
-    "type": "pro (full-size 3/8) (varies by cutter/chisel profile)"
+    "type": "Full Chisel"
   },
   "drive_link_counts_supported": [56, 68, 72, 84, 92, 98],
   "products": [
