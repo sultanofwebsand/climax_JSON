@@ -1,0 +1,79 @@
+{
+  "bar_mount": "D025",
+  "mount_notes": {
+    "stihl_large_mount_oem": "Stihl 3003",
+    "oregon_mount": "D025",
+    "note": "D025 is the mount family; pitch/gauge must match the saw’s sprocket + intended setup."
+  },
+  "climax_bars": [
+    {"sku": "CLB15156432", "bar_length_label": "15\"", "pitch": "0.325", "gauge": "1.5mm / 0.058", "drive_links": 64},
+
+    {"sku": "CLB16166732", "bar_length_label": "16\"", "pitch": "0.325", "gauge": "1.6mm / 0.063", "drive_links": 67},
+
+    {"sku": "CLB18166638", "bar_length_label": "18\"", "pitch": "3/8", "gauge": "1.6mm / 0.063", "drive_links": 66},
+    {"sku": "CLB18167432", "bar_length_label": "18\"", "pitch": "0.325", "gauge": "1.6mm / 0.063", "drive_links": 74},
+
+    {"sku": "CLB20167238", "bar_length_label": "20\"", "pitch": "3/8", "gauge": "1.6mm / 0.063", "drive_links": 72},
+    {"sku": "CLB20168132", "bar_length_label": "20\"", "pitch": "0.325", "gauge": "1.6mm / 0.063", "drive_links": 81},
+
+    {"sku": "CLB22167738", "bar_length_label": "22\"", "pitch": "3/8", "gauge": "1.6mm / 0.063", "drive_links": 77},
+
+    {"sku": "CLB24168438", "bar_length_label": "24\"", "pitch": "3/8", "gauge": "1.6mm / 0.063", "drive_links": 84},
+
+    {"sku": "CLB28169138", "bar_length_label": "28\"", "pitch": "3/8", "gauge": "1.6mm / 0.063", "drive_links": 91},
+
+    {"sku": "CLB361611438", "bar_length_label": "36\"", "pitch": "3/8", "gauge": "1.6mm / 0.063", "drive_links": 114}
+  ],
+  "fits_with_models_full_json": [
+    {"brand": "Stihl", "model": "024"},
+    {"brand": "Stihl", "model": "026"},
+    {"brand": "Stihl", "model": "028"},
+    {"brand": "Stihl", "model": "029"},
+    {"brand": "Stihl", "model": "030"},
+    {"brand": "Stihl", "model": "031"},
+    {"brand": "Stihl", "model": "032"},
+    {"brand": "Stihl", "model": "034"},
+    {"brand": "Stihl", "model": "036"},
+    {"brand": "Stihl", "model": "038"},
+    {"brand": "Stihl", "model": "039"},
+    {"brand": "Stihl", "model": "041"},
+    {"brand": "Stihl", "model": "042"},
+    {"brand": "Stihl", "model": "044"},
+    {"brand": "Stihl", "model": "045"},
+    {"brand": "Stihl", "model": "046"},
+    {"brand": "Stihl", "model": "056"},
+    {"brand": "Stihl", "model": "064"},
+    {"brand": "Stihl", "model": "066"},
+    {"brand": "Stihl", "model": "E20"},
+    {"brand": "Stihl", "model": "E220"},
+    {"brand": "Stihl", "model": "MS240"},
+    {"brand": "Stihl", "model": "MS260"},
+    {"brand": "Stihl", "model": "MS261"},
+    {"brand": "Stihl", "model": "MS280"},
+    {"brand": "Stihl", "model": "MS290"},
+    {"brand": "Stihl", "model": "MS291"},
+    {"brand": "Stihl", "model": "MS310"},
+    {"brand": "Stihl", "model": "MS311"},
+    {"brand": "Stihl", "model": "MS340"},
+    {"brand": "Stihl", "model": "MS341"},
+    {"brand": "Stihl", "model": "MS360"},
+    {"brand": "Stihl", "model": "MS361"},
+    {"brand": "Stihl", "model": "MS362"},
+    {"brand": "Stihl", "model": "MS380"},
+    {"brand": "Stihl", "model": "MS381"},
+    {"brand": "Stihl", "model": "MS382"},
+    {"brand": "Stihl", "model": "MS390"},
+    {"brand": "Stihl", "model": "MS391"},
+    {"brand": "Stihl", "model": "MS400"},
+    {"brand": "Stihl", "model": "MS440"},
+    {"brand": "Stihl", "model": "MS441"},
+    {"brand": "Stihl", "model": "MS460"},
+    {"brand": "Stihl", "model": "MS461"},
+    {"brand": "Stihl", "model": "MS462"},
+    {"brand": "Stihl", "model": "MS500i"},
+    {"brand": "Stihl", "model": "MS640"},
+    {"brand": "Stihl", "model": "MS650"},
+    {"brand": "Stihl", "model": "MSE220C"},
+    {"brand": "Stihl", "model": "MSE250C"}
+  ]
+}
