@@ -25,8 +25,12 @@
     { "brand": "Husqvarna", "model": "545 (common .325 .058 setups)", "mount_family": "D009 (varies by bar)", "drive_links": 64, "climax_sku": "CLC21YOP64" },
     { "brand": "Husqvarna", "model": "545 (common .325 .058 setups)", "mount_family": "D009 (varies by bar)", "drive_links": 72, "climax_sku": "CLC21YOP72" },
 
-    { "brand": "Husqvarna", "model": "550 XP / 550XP Mark II (common .325 .058 setups)", "mount_family": "D009 (varies by bar)", "drive_links": 64, "climax_sku": "CLC21YOP64" },
-    { "brand": "Husqvarna", "model": "550 XP / 550XP Mark II (common .325 .058 setups)", "mount_family": "D009 (varies by bar)", "drive_links": 72, "climax_sku": "CLC21YOP72" },
+    { "brand": "Husqvarna", "model": "550 XP (common .325 .058 setups)", "mount_family": "D009 (varies by bar)", "drive_links": 72, "climax_sku": "CLC21YOP72" },
+    { "brand": "Husqvarna", "model": "550XP Mark II (common .325 .058 setups)", "mount_family": "D009 (varies by bar)", "drive_links": 72, "climax_sku": "CLC21YOP72" },
+
+{ "brand": "Husqvarna", "model": "550 XP (common .325 .058 setups)", "mount_family": "D009 (varies by bar)", "drive_links": 64, "climax_sku": "CLC21YOP64" },
+{ "brand": "Husqvarna", "model": "550XP Mark II (common .325 .058 setups)", "mount_family": "D009 (varies by bar)", "drive_links": 64, "climax_sku": "CLC21YOP64" },
+
 
     { "brand": "Husqvarna", "model": "346XP (common .325 .058 setups)", "mount_family": "D009 (varies by bar)", "drive_links": 64, "climax_sku": "CLC21YOP64" },
     { "brand": "Husqvarna", "model": "346XP (common .325 .058 setups)", "mount_family": "D009 (varies by bar)", "drive_links": 72, "climax_sku": "CLC21YOP72" },
@@ -54,12 +58,6 @@
     { "brand": "Husqvarna", "model": "460 Rancher (config-dependent .325 .058 setup)", "mount_family": "D009 (varies by bar)", "drive_links": 78, "climax_sku": "CLC21YOP78" },
     { "brand": "Husqvarna", "model": "460 Rancher (config-dependent longer bar)", "mount_family": "D009 (varies by bar)", "drive_links": 80, "climax_sku": "CLC21YOP80" },
 
-    /* =========================
-       STIHL (CONFIG-DEPENDENT — DO NOT ASSUME .058)
-       ========================= */
-
-    { "brand": "Stihl", "model": "MS261 (config-dependent .325 .058 setup)", "mount_family": "Stihl 3003/D025 (varies by bar)", "drive_links": 64, "climax_sku": "CLC21YOP64" },
-    { "brand": "Stihl", "model": "MS261 (config-dependent .325 .058 setup)", "mount_family": "Stihl 3003/D025 (varies by bar)", "drive_links": 72, "climax_sku": "CLC21YOP72" },
 
     /* =========================
        ECHO (CONFIG-DEPENDENT — DO NOT ASSUME .058)
