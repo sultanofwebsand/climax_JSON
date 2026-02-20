@@ -1,0 +1,88 @@
+{
+  "chain_family": "Climax 22OP",
+  "oregon_equivalent_family": "Oregon 22BPX (.325, .063)",
+  "spec": {
+    "pitch": "0.325",
+    "gauge": "1.6mm / .063",
+    "type": "pro / heavy gauge (varies by loop)"
+  },
+  "drive_link_counts_supported": [62, 67, 68, 74, 81],
+  "products": [
+    { "climax_sku": "CLC22OP62", "drive_links": 62 },
+    { "climax_sku": "CLC22OP67", "drive_links": 67 },
+    { "climax_sku": "CLC22OP68", "drive_links": 68 },
+    { "climax_sku": "CLC22OP74", "drive_links": 74 },
+    { "climax_sku": "CLC22OP81", "drive_links": 81 }
+  ],
+  "mount_notes": {
+    "note": ".325 .063 setups are highly bar/mount dependent (common mounts include Stihl 3003/D025 and Husqvarna D009 families). Validate against bar mount code + bar stamp."
+  },
+  "fits_with_models_full_json": [
+
+    /* =========================
+       STIHL (HIGH PRIORITY)
+       ========================= */
+
+    { "brand": "Stihl", "model": "MS261 (config-dependent)", "mount_family": "Stihl 3003/D025 (varies by bar)", "drive_links": 67, "climax_sku": "CLC22OP67" },
+    { "brand": "Stihl", "model": "MS261 (config-dependent)", "mount_family": "Stihl 3003/D025 (varies by bar)", "drive_links": 68, "climax_sku": "CLC22OP68" },
+
+    { "brand": "Stihl", "model": "MS271 (config-dependent)", "mount_family": "Stihl 3003/D025 (varies by bar)", "drive_links": 74, "climax_sku": "CLC22OP74" },
+    { "brand": "Stihl", "model": "MS291 (config-dependent)", "mount_family": "Stihl 3003/D025 (varies by bar)", "drive_links": 74, "climax_sku": "CLC22OP74" },
+
+    { "brand": "Stihl", "model": "MS311 (config-dependent)", "mount_family": "Stihl 3003/D025 (varies by bar)", "drive_links": 81, "climax_sku": "CLC22OP81" },
+    { "brand": "Stihl", "model": "MS391 (config-dependent)", "mount_family": "Stihl 3003/D025 (varies by bar)", "drive_links": 81, "climax_sku": "CLC22OP81" },
+
+    /* =========================
+       HUSQVARNA (HIGH PRIORITY)
+       ========================= */
+
+    { "brand": "Husqvarna", "model": "545 (config-dependent)", "mount_family": "D009 (varies by bar)", "drive_links": 68, "climax_sku": "CLC22OP68" },
+    { "brand": "Husqvarna", "model": "550 XP / 550XP Mark II (config-dependent)", "mount_family": "D009 (varies by bar)", "drive_links": 68, "climax_sku": "CLC22OP68" },
+
+    { "brand": "Husqvarna", "model": "455 Rancher (config-dependent)", "mount_family": "D009 (varies by bar)", "drive_links": 74, "climax_sku": "CLC22OP74" },
+    { "brand": "Husqvarna", "model": "460 Rancher (config-dependent)", "mount_family": "D009 (varies by bar)", "drive_links": 74, "climax_sku": "CLC22OP74" },
+
+    { "brand": "Husqvarna", "model": "562 XP / 562XP Mark II (config-dependent)", "mount_family": "D009 (varies by bar)", "drive_links": 81, "climax_sku": "CLC22OP81" },
+
+    /* =========================
+       ECHO (HIGH PRIORITY)
+       ========================= */
+
+    { "brand": "Echo", "model": "CS-590 (config-dependent)", "mount_family": null, "drive_links": 74, "climax_sku": "CLC22OP74" },
+    { "brand": "Echo", "model": "CS-620P (config-dependent)", "mount_family": null, "drive_links": 81, "climax_sku": "CLC22OP81" },
+
+    /* =========================
+       DOLMAR / MAKITA
+       ========================= */
+
+    { "brand": "Dolmar", "model": "PS-460 (config-dependent)", "mount_family": null, "drive_links": 68, "climax_sku": "CLC22OP68" },
+    { "brand": "Dolmar", "model": "PS-500 (config-dependent)", "mount_family": null, "drive_links": 74, "climax_sku": "CLC22OP74" },
+
+    { "brand": "Makita", "model": "EA5000P (config-dependent)", "mount_family": null, "drive_links": 74, "climax_sku": "CLC22OP74" },
+    { "brand": "Makita", "model": "EA6100P (config-dependent)", "mount_family": null, "drive_links": 81, "climax_sku": "CLC22OP81" },
+
+    /* =========================
+       SHORTER BAR CONFIGS (62DL)
+       ========================= */
+
+    { "brand": "Stihl", "model": "MS241 (short .325 .063 setup)", "mount_family": "Stihl 3003/D025 (varies by bar)", "drive_links": 62, "climax_sku": "CLC22OP62" },
+    { "brand": "Husqvarna", "model": "543 XP (short .325 .063 setup)", "mount_family": "D009 (varies by bar)", "drive_links": 62, "climax_sku": "CLC22OP62" },
+
+    /* =========================
+       MID BAR CONFIGS (67DL)
+       ========================= */
+
+    { "brand": "Stihl", "model": "MS241 (mid .325 .063 setup)", "mount_family": "Stihl 3003/D025 (varies by bar)", "drive_links": 67, "climax_sku": "CLC22OP67" },
+    { "brand": "Husqvarna", "model": "543 XP (mid .325 .063 setup)", "mount_family": "D009 (varies by bar)", "drive_links": 67, "climax_sku": "CLC22OP67" },
+
+    /* =========================
+       GENERIC (CRITICAL COVERAGE)
+       ========================= */
+
+    { "brand": "Generic", "model": "Any saw using .325 pitch + .063 gauge + 62DL", "mount_family": null, "drive_links": 62, "climax_sku": "CLC22OP62" },
+    { "brand": "Generic", "model": "Any saw using .325 pitch + .063 gauge + 67DL", "mount_family": null, "drive_links": 67, "climax_sku": "CLC22OP67" },
+    { "brand": "Generic", "model": "Any saw using .325 pitch + .063 gauge + 68DL", "mount_family": null, "drive_links": 68, "climax_sku": "CLC22OP68" },
+    { "brand": "Generic", "model": "Any saw using .325 pitch + .063 gauge + 74DL", "mount_family": null, "drive_links": 74, "climax_sku": "CLC22OP74" },
+    { "brand": "Generic", "model": "Any saw using .325 pitch + .063 gauge + 81DL", "mount_family": null, "drive_links": 81, "climax_sku": "CLC22OP81" }
+  ]
+}
