@@ -46,9 +46,11 @@
     { "brand": "Jonsered", "model": "CS 2260 (common 3/8 .058 setups)", "mount_family": "D009/D008 (varies by bar)", "drive_links": 84, "climax_sku": "CLC73LP84" },
     { "brand": "Jonsered", "model": "CS 2260 (common longer bar setups)", "mount_family": "D009/D008 (varies by bar)", "drive_links": 92, "climax_sku": "CLC73LP92" },
 
-    { "brand": "Jonsered", "model": "CS 2171 / CS 2166 (common 3/8 .058 setups)", "mount_family": "D009/D008 (varies by bar)", "drive_links": 92, "climax_sku": "CLC73LP92" },
-    { "brand": "Jonsered", "model": "CS 2171 / CS 2166 (common longer bar setups)", "mount_family": "D009/D008 (varies by bar)", "drive_links": 98, "climax_sku": "CLC73LP98" },
+{ "brand": "Jonsered", "model": "CS 2171 (common 3/8 .058 setups)", "mount_family": "D009/D008 (varies by bar)", "drive_links": 84, "climax_sku": "CLC73LP84" },
+{ "brand": "Jonsered", "model": "CS 2166 (common 3/8 .058 setups)", "mount_family": "D009/D008 (varies by bar)", "drive_links": 84, "climax_sku": "CLC73LP84" },
 
+{ "brand": "Jonsered", "model": "CS 2171 (common longer bar setups)", "mount_family": "D009/D008 (varies by bar)", "drive_links": 92, "climax_sku": "CLC73LP92" },
+{ "brand": "Jonsered", "model": "CS 2166 (common longer bar setups)", "mount_family": "D009/D008 (varies by bar)", "drive_links": 92, "climax_sku": "CLC73LP92" },
 
     /* =========================
        ECHO (CONFIG-DEPENDENT — DO NOT ASSUME .058)
@@ -64,7 +66,8 @@
        ========================= */
 
     { "brand": "Makita", "model": "EA6100P (config-dependent 3/8 .058 setup)", "mount_family": null, "drive_links": 92, "climax_sku": "CLC73LP92" },
-    { "brand": "Dolmar", "model": "PS-6100 / PS-7300 (config-dependent 3/8 .058 setup)", "mount_family": null, "drive_links": 92, "climax_sku": "CLC73LP92" },
+    { "brand": "Dolmar", "model": "PS-6100 (config-dependent 3/8 .058 setup)", "mount_family": null, "drive_links": 92, "climax_sku": "CLC73LP92" },
+    { "brand": "Dolmar", "model": "PS-7300 (config-dependent 3/8 .058 setup)", "mount_family": null, "drive_links": 92, "climax_sku": "CLC73LP92" },
 
     /* =========================
        SHORTER / SPECIAL DLs (56/68/72)
