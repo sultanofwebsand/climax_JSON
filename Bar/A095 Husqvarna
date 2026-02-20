@@ -1,89 +1,44 @@
 {
-  "bar_family": "Climax A095",
-  "oregon_equivalent_bar": "Oregon 140SDEA095",
   "bar_mount": "A095",
-  "spec": {
-    "bar_length_in": 14,
-    "pitch": "3/8 LP",
-    "gauge": "1.3mm / .050",
-    "drive_links": 52,
-    "chain_type_reference": "91 (3/8 LP .050 family)"
-  },
+  "oregon_equivalent_bar": "Oregon 140SDEA095",
   "climax_bars": [
     {
       "climax_sku": "CLB14135238",
-      "bar_length_label": "14\"",
+      "bar_length": "14\"",
       "pitch": "3/8 LP",
       "gauge": "1.3mm / .050",
-      "drive_links": 52,
-      "mount_family": "A095"
+      "drive_links": 52
     }
   ],
   "fits_with_models_full_json": [
+
     /* =========================
        HUSQVARNA
        ========================= */
     {"brand": "Husqvarna", "model": "120"},
-    {"brand": "Husqvarna", "model": "120 II"},
-    {"brand": "Husqvarna", "model": "120e II"},
     {"brand": "Husqvarna", "model": "130"},
     {"brand": "Husqvarna", "model": "135"},
-    {"brand": "Husqvarna", "model": "135 II"},
-    {"brand": "Husqvarna", "model": "135e"},
-    {"brand": "Husqvarna", "model": "136"},
-    {"brand": "Husqvarna", "model": "137"},
-    {"brand": "Husqvarna", "model": "137e"},
     {"brand": "Husqvarna", "model": "140"},
-    {"brand": "Husqvarna", "model": "140e"},
-    {"brand": "Husqvarna", "model": "141"},
-    {"brand": "Husqvarna", "model": "142"},
-    {"brand": "Husqvarna", "model": "142e"},
-    {"brand": "Husqvarna", "model": "235"},
-    {"brand": "Husqvarna", "model": "235e"},
-    {"brand": "Husqvarna", "model": "236"},
-    {"brand": "Husqvarna", "model": "236e"},
-    {"brand": "Husqvarna", "model": "240"},
+    {"brand": "Husqvarna", "model": "1400"},
+    {"brand": "Husqvarna", "model": "1600"},
     {"brand": "Husqvarna", "model": "240E"},
-    {"brand": "Husqvarna", "model": "240e"},
-    {"brand": "Husqvarna", "model": "243"},
-    {"brand": "Husqvarna", "model": "315 Electric"},
-    {"brand": "Husqvarna", "model": "316 ELECTRIC"},
     {"brand": "Husqvarna", "model": "316 Electric"},
     {"brand": "Husqvarna", "model": "316E"},
-    {"brand": "Husqvarna", "model": "317 Electric"},
-    {"brand": "Husqvarna", "model": "318 Electric"},
-    {"brand": "Husqvarna", "model": "320 Electric"},
-    {"brand": "Husqvarna", "model": "321 Electric"},
-    {"brand": "Husqvarna", "model": "323P4"},
     {"brand": "Husqvarna", "model": "325P4"},
-    {"brand": "Husqvarna", "model": "325P4", "note": "12\" only"},
     {"brand": "Husqvarna", "model": "325P5X"},
     {"brand": "Husqvarna", "model": "326P4"},
     {"brand": "Husqvarna", "model": "326P5X"},
-    {"brand": "Husqvarna", "model": "327P4"},
     {"brand": "Husqvarna", "model": "327P5X"},
-    {"brand": "Husqvarna", "model": "333"},
     {"brand": "Husqvarna", "model": "334T"},
     {"brand": "Husqvarna", "model": "335"},
-    {"brand": "Husqvarna", "model": "335XP"},
     {"brand": "Husqvarna", "model": "335XPT"},
     {"brand": "Husqvarna", "model": "336"},
-    {"brand": "Husqvarna", "model": "338XP"},
     {"brand": "Husqvarna", "model": "338XPT"},
     {"brand": "Husqvarna", "model": "339XP"},
-    {"brand": "Husqvarna", "model": "340i"},
-    {"brand": "Husqvarna", "model": "414EL"},
-    {"brand": "Husqvarna", "model": "418EL"},
-    {"brand": "Husqvarna", "model": "420EL"},
-    {"brand": "Husqvarna", "model": "439"},
     {"brand": "Husqvarna", "model": "525P4S"},
-    {"brand": "Husqvarna", "model": "540XP III"},
     {"brand": "Husqvarna", "model": "T435"},
     {"brand": "Husqvarna", "model": "T540"},
     {"brand": "Husqvarna", "model": "T540XP"},
-    {"brand": "Husqvarna", "model": "T540XP II"},
-    {"brand": "Husqvarna", "model": "1400"},
-    {"brand": "Husqvarna", "model": "1600"},
     {"brand": "Husqvarna", "model": "501959252"},
     {"brand": "Husqvarna", "model": "HL-280-52"},
 
@@ -93,96 +48,43 @@
     {"brand": "Jonsered", "model": "2035"},
     {"brand": "Jonsered", "model": "2036"},
     {"brand": "Jonsered", "model": "2040"},
-    {"brand": "Jonsered", "model": "2115 EL"},
-    {"brand": "Jonsered", "model": "2116"},
-    {"brand": "Jonsered", "model": "CS 2117 EL"},
-    {"brand": "Jonsered", "model": "2117"},
-    {"brand": "Jonsered", "model": "2118 EL"},
-    {"brand": "Jonsered", "model": "CS 2121 EL"},
-    {"brand": "Jonsered", "model": "2121"},
-    {"brand": "Jonsered", "model": "CS 2135"},
-    {"brand": "Jonsered", "model": "2135"},
-    {"brand": "Jonsered", "model": "2137"},
-    {"brand": "Jonsered", "model": "2138"},
-    {"brand": "Jonsered", "model": "2139"},
     {"brand": "Jonsered", "model": "2139T"},
+    {"brand": "Jonsered", "model": "CS 2117 EL"},
+    {"brand": "Jonsered", "model": "CS 2121 EL"},
+    {"brand": "Jonsered", "model": "CS 2135"},
     {"brand": "Jonsered", "model": "CS 2139T"},
     {"brand": "Jonsered", "model": "CS 2234"},
-    {"brand": "Jonsered", "model": "2234"},
-    {"brand": "Jonsered", "model": "2236T"},
-    {"brand": "Jonsered", "model": "2238"},
-
-    /* =========================
-       MCCULLOCH
-       ========================= */
-    {"brand": "McCulloch", "model": "CS360T"},
-    {"brand": "McCulloch", "model": "CS380"},
-    {"brand": "McCulloch", "model": "CS420T"},
-    {"brand": "McCulloch", "model": "EB 428"},
-    {"brand": "McCulloch", "model": "MS1210"},
-    {"brand": "McCulloch", "model": "MS1215"},
-    {"brand": "McCulloch", "model": "MS1415"},
-    {"brand": "McCulloch", "model": "MS1425"},
-    {"brand": "McCulloch", "model": "MS1432"},
-    {"brand": "McCulloch", "model": "MS1434"},
-    {"brand": "McCulloch", "model": "MS1435"},
-    {"brand": "McCulloch", "model": "MS1436"},
-    {"brand": "McCulloch", "model": "MS1630"},
-    {"brand": "McCulloch", "model": "MS1635AV"},
-    {"brand": "McCulloch", "model": "MS1636"},
-    {"brand": "McCulloch", "model": "MS1639NAVCC"},
-    {"brand": "McCulloch", "model": "MS1640"},
-    {"brand": "McCulloch", "model": "MS1645"},
-    {"brand": "McCulloch", "model": "MS1839"},
-    {"brand": "McCulloch", "model": "MS1842AVCC"},
+    {"brand": "Jonsered", "model": "CS 2236T"},
 
     /* =========================
        SOLO
        ========================= */
     {"brand": "Solo", "model": "614"},
-    {"brand": "Solo", "model": "620"},
-    {"brand": "Solo", "model": "621"},
     {"brand": "Solo", "model": "630"},
     {"brand": "Solo", "model": "633"},
     {"brand": "Solo", "model": "635"},
     {"brand": "Solo", "model": "636"},
     {"brand": "Solo", "model": "637"},
     {"brand": "Solo", "model": "640"},
-    {"brand": "Solo", "model": "642"},
     {"brand": "Solo", "model": "643"},
 
     /* =========================
-       REMINGTON
+       MCCULLOCH
        ========================= */
-    {"brand": "Remington", "model": "RM4214"},
-    {"brand": "Remington", "model": "RM4216"},
-    {"brand": "Remington", "model": "RM4218"},
+    {"brand": "McCulloch", "model": "EB 428"},
+    {"brand": "McCulloch", "model": "MS 1434"},
+    {"brand": "McCulloch", "model": "MS 1436"},
+    {"brand": "McCulloch", "model": "MS 1636"},
+    {"brand": "McCulloch", "model": "MS 1639NAVCC"},
+    {"brand": "McCulloch", "model": "MS 1839"},
+    {"brand": "McCulloch", "model": "MS 1842AVCC"},
 
     /* =========================
-       PARTNER
+       OTHER
        ========================= */
-    {"brand": "Partner", "model": "185"},
-    {"brand": "Partner", "model": "616"},
-    {"brand": "Partner", "model": "620"},
-    {"brand": "Partner", "model": "718"},
-    {"brand": "Partner", "model": "1550 EL"},
-    {"brand": "Partner", "model": "1850 EL"},
-    {"brand": "Partner", "model": "P520"},
-    {"brand": "Partner", "model": "P722T"},
-
-    /* =========================
-       OTHER BRANDS (AS LISTED ON A095 FIT PAGES)
-       ========================= */
-    {"brand": "Draper", "model": "Expert"},
-    {"brand": "Florabest", "model": "2000/6"},
-    {"brand": "Florabest", "model": "2000/7"},
-    {"brand": "Florabest", "model": "SKS2200-8"},
-    {"brand": "Gardenline", "model": "5336"},
-    {"brand": "Power Performance", "model": "FPCS45"},
-    {"brand": "Power Performance", "model": "PRO42CCCSA"},
     {"brand": "Power King", "model": "PK4014"},
     {"brand": "Power King", "model": "PK401418"},
     {"brand": "Red Max", "model": "GZ360"},
-    {"brand": "Talon", "model": "AC3100"}
+    {"brand": "Remington", "model": "RM4214"}
   ]
 }
