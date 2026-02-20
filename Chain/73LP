@@ -1,0 +1,95 @@
+{
+  "chain_family": "Climax 73LP",
+  "oregon_equivalent_family": "Oregon 73LPX (3/8, .058)",
+  "spec": {
+    "pitch": "3/8",
+    "gauge": "1.5mm / .058",
+    "type": "pro (full-size 3/8) (varies by cutter/chisel profile)"
+  },
+  "drive_link_counts_supported": [56, 68, 72, 84, 92, 98],
+  "products": [
+    { "climax_sku": "CLC73LP56", "drive_links": 56 },
+    { "climax_sku": "CLC73LP68", "drive_links": 68 },
+    { "climax_sku": "CLC73LP72", "drive_links": 72 },
+    { "climax_sku": "CLC73LP84", "drive_links": 84 },
+    { "climax_sku": "CLC73LP92", "drive_links": 92 },
+    { "climax_sku": "CLC73LP98", "drive_links": 98 }
+  ],
+  "mount_notes": {
+    "note": "3/8 .058 pro setups are bar/mount dependent (common mounts include Stihl 3003/3002 families and Husqvarna D009/D007/D008 depending on saw class). Validate against bar mount code + bar stamp."
+  },
+  "fits_with_models_full_json": [
+
+    /* =========================
+       STIHL (HIGH PRIORITY)
+       ========================= */
+
+    { "brand": "Stihl", "model": "MS261 (3/8 conversion setup)", "mount_family": "Stihl 3003/D025 (varies by bar)", "drive_links": 68, "climax_sku": "CLC73LP68" },
+    { "brand": "Stihl", "model": "MS261 (3/8 conversion setup)", "mount_family": "Stihl 3003/D025 (varies by bar)", "drive_links": 72, "climax_sku": "CLC73LP72" },
+
+    { "brand": "Stihl", "model": "MS291 (3/8 setup)", "mount_family": "Stihl 3003/D025 (varies by bar)", "drive_links": 72, "climax_sku": "CLC73LP72" },
+    { "brand": "Stihl", "model": "MS311 (3/8 setup)", "mount_family": "Stihl 3003/D025 (varies by bar)", "drive_links": 84, "climax_sku": "CLC73LP84" },
+    { "brand": "Stihl", "model": "MS391 (3/8 setup)", "mount_family": "Stihl 3003/D025 (varies by bar)", "drive_links": 84, "climax_sku": "CLC73LP84" },
+
+    { "brand": "Stihl", "model": "MS362 (3/8 setup)", "mount_family": "Stihl 3003/3002 (varies by bar)", "drive_links": 84, "climax_sku": "CLC73LP84" },
+    { "brand": "Stihl", "model": "MS362 (3/8 setup - longer bar)", "mount_family": "Stihl 3003/3002 (varies by bar)", "drive_links": 92, "climax_sku": "CLC73LP92" },
+
+    { "brand": "Stihl", "model": "MS400 C-M (3/8 setup)", "mount_family": "Stihl 3003/3002 (varies by bar)", "drive_links": 84, "climax_sku": "CLC73LP84" },
+    { "brand": "Stihl", "model": "MS400 C-M (3/8 setup - longer bar)", "mount_family": "Stihl 3003/3002 (varies by bar)", "drive_links": 92, "climax_sku": "CLC73LP92" },
+
+    { "brand": "Stihl", "model": "MS462 (3/8 setup)", "mount_family": "Stihl 3003/3002 (varies by bar)", "drive_links": 92, "climax_sku": "CLC73LP92" },
+    { "brand": "Stihl", "model": "MS462 (3/8 setup - longer bar)", "mount_family": "Stihl 3003/3002 (varies by bar)", "drive_links": 98, "climax_sku": "CLC73LP98" },
+
+    { "brand": "Stihl", "model": "MS500i (3/8 setup)", "mount_family": "Stihl 3003/3002 (varies by bar)", "drive_links": 92, "climax_sku": "CLC73LP92" },
+    { "brand": "Stihl", "model": "MS500i (3/8 setup - longer bar)", "mount_family": "Stihl 3003/3002 (varies by bar)", "drive_links": 98, "climax_sku": "CLC73LP98" },
+
+    /* =========================
+       HUSQVARNA (HIGH PRIORITY)
+       ========================= */
+
+    { "brand": "Husqvarna", "model": "555 (3/8 setup)", "mount_family": "D009 (varies by bar)", "drive_links": 84, "climax_sku": "CLC73LP84" },
+    { "brand": "Husqvarna", "model": "560 XP / 560XP Mark II (3/8 setup)", "mount_family": "D009 (varies by bar)", "drive_links": 84, "climax_sku": "CLC73LP84" },
+    { "brand": "Husqvarna", "model": "562 XP / 562XP Mark II (3/8 setup)", "mount_family": "D009 (varies by bar)", "drive_links": 84, "climax_sku": "CLC73LP84" },
+
+    { "brand": "Husqvarna", "model": "372 XP (3/8 setup)", "mount_family": "D009/D008 (varies by bar)", "drive_links": 92, "climax_sku": "CLC73LP92" },
+    { "brand": "Husqvarna", "model": "372 XP (3/8 setup - longer bar)", "mount_family": "D009/D008 (varies by bar)", "drive_links": 98, "climax_sku": "CLC73LP98" },
+
+    { "brand": "Husqvarna", "model": "390 XP (3/8 setup)", "mount_family": "D009/D008 (varies by bar)", "drive_links": 92, "climax_sku": "CLC73LP92" },
+    { "brand": "Husqvarna", "model": "390 XP (3/8 setup - longer bar)", "mount_family": "D009/D008 (varies by bar)", "drive_links": 98, "climax_sku": "CLC73LP98" },
+
+    { "brand": "Husqvarna", "model": "592 XP (3/8 setup)", "mount_family": "D009/D008 (varies by bar)", "drive_links": 92, "climax_sku": "CLC73LP92" },
+    { "brand": "Husqvarna", "model": "592 XP (3/8 setup - longer bar)", "mount_family": "D009/D008 (varies by bar)", "drive_links": 98, "climax_sku": "CLC73LP98" },
+
+    /* =========================
+       ECHO (HIGH PRIORITY)
+       ========================= */
+
+    { "brand": "Echo", "model": "CS-590 (3/8 setup)", "mount_family": null, "drive_links": 84, "climax_sku": "CLC73LP84" },
+    { "brand": "Echo", "model": "CS-620P (3/8 setup)", "mount_family": null, "drive_links": 92, "climax_sku": "CLC73LP92" },
+    { "brand": "Echo", "model": "CS-7310SX (3/8 setup)", "mount_family": null, "drive_links": 92, "climax_sku": "CLC73LP92" },
+    { "brand": "Echo", "model": "CS-7310SX (3/8 setup - longer bar)", "mount_family": null, "drive_links": 98, "climax_sku": "CLC73LP98" },
+
+    /* =========================
+       SMALLER / SPECIAL CONFIGS (56DL / 68DL / 72DL)
+       ========================= */
+
+    { "brand": "Stihl", "model": "MS231 (3/8 setup - short)", "mount_family": "Stihl 3003/D025 (varies by bar)", "drive_links": 68, "climax_sku": "CLC73LP68" },
+    { "brand": "Stihl", "model": "MS251 (3/8 setup - short)", "mount_family": "Stihl 3003/D025 (varies by bar)", "drive_links": 68, "climax_sku": "CLC73LP68" },
+
+    { "brand": "Husqvarna", "model": "445 (3/8 setup - short)", "mount_family": "K095/D009 (varies by bar)", "drive_links": 72, "climax_sku": "CLC73LP72" },
+    { "brand": "Husqvarna", "model": "450 (3/8 setup - short)", "mount_family": "K095/D009 (varies by bar)", "drive_links": 72, "climax_sku": "CLC73LP72" },
+
+    { "brand": "Echo", "model": "CS-4510ES (3/8 setup - short)", "mount_family": null, "drive_links": 72, "climax_sku": "CLC73LP72" },
+
+    /* =========================
+       GENERIC (CRITICAL COVERAGE)
+       ========================= */
+
+    { "brand": "Generic", "model": "Any saw using 3/8 pitch + .058 gauge + 56DL", "mount_family": null, "drive_links": 56, "climax_sku": "CLC73LP56" },
+    { "brand": "Generic", "model": "Any saw using 3/8 pitch + .058 gauge + 68DL", "mount_family": null, "drive_links": 68, "climax_sku": "CLC73LP68" },
+    { "brand": "Generic", "model": "Any saw using 3/8 pitch + .058 gauge + 72DL", "mount_family": null, "drive_links": 72, "climax_sku": "CLC73LP72" },
+    { "brand": "Generic", "model": "Any saw using 3/8 pitch + .058 gauge + 84DL", "mount_family": null, "drive_links": 84, "climax_sku": "CLC73LP84" },
+    { "brand": "Generic", "model": "Any saw using 3/8 pitch + .058 gauge + 92DL", "mount_family": null, "drive_links": 92, "climax_sku": "CLC73LP92" },
+    { "brand": "Generic", "model": "Any saw using 3/8 pitch + .058 gauge + 98DL", "mount_family": null, "drive_links": 98, "climax_sku": "CLC73LP98" }
+  ]
+}
