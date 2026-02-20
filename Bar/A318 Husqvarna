@@ -8,6 +8,12 @@
     {"sku": "CLB10135814", "bar_length_label": "10\"", "pitch": "1/4", "gauge": "1.3mm / 0.050", "drive_links": 58}
   ],
   "fits_with_models_full_json": [
+{"brand":"Husqvarna","model":"525PT5S"},
+{"brand":"Husqvarna","model":"530iPT5"},
+{"brand":"Husqvarna","model":"327PT5S"},
+{"brand":"Husqvarna","model":"536LiP4"},
+{"brand":"Husqvarna","model":"536LiPT5"},
+
     {"brand": "Black & Decker", "model": "40T"},
     {"brand": "Black & Decker", "model": "CS30"},
     {"brand": "Black & Decker", "model": "CS35"},
