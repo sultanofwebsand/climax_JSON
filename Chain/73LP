@@ -25,8 +25,10 @@
        ========================= */
 
     { "brand": "Husqvarna", "model": "555 (common 3/8 .058 setups)", "mount_family": "D009/D008 (varies by bar)", "drive_links": 84, "climax_sku": "CLC73LP84" },
-    { "brand": "Husqvarna", "model": "560 XP / 560XP Mark II (common 3/8 .058 setups)", "mount_family": "D009/D008 (varies by bar)", "drive_links": 84, "climax_sku": "CLC73LP84" },
-    { "brand": "Husqvarna", "model": "562 XP / 562XP Mark II (common 3/8 .058 setups)", "mount_family": "D009/D008 (varies by bar)", "drive_links": 84, "climax_sku": "CLC73LP84" },
+    { "brand": "Husqvarna", "model": "562 XP (common 3/8 .058 setups)", "mount_family": "D009/D008 (varies by bar)", "drive_links": 84, "climax_sku": "CLC73LP84" },
+    { "brand": "Husqvarna", "model": "562XP Mark II (common 3/8 .058 setups)", "mount_family": "D009/D008 (varies by bar)", "drive_links": 84, "climax_sku": "CLC73LP84" },
+{ "brand": "Husqvarna", "model": "560 XP (common 3/8 .058 setups)", "mount_family": "D009/D008 (varies by bar)", "drive_links": 84, "climax_sku": "CLC73LP84" },
+{ "brand": "Husqvarna", "model": "560XP Mark II (common 3/8 .058 setups)", "mount_family": "D009/D008 (varies by bar)", "drive_links": 84, "climax_sku": "CLC73LP84" },
 
     { "brand": "Husqvarna", "model": "372 XP (common 3/8 .058 setups)", "mount_family": "D009/D008 (varies by bar)", "drive_links": 92, "climax_sku": "CLC73LP92" },
     { "brand": "Husqvarna", "model": "372 XP (common longer bar setups)", "mount_family": "D009/D008 (varies by bar)", "drive_links": 98, "climax_sku": "CLC73LP98" },
