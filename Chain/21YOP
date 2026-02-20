@@ -4,7 +4,7 @@
   "spec": {
     "pitch": "0.325",
     "gauge": "1.5mm / .058",
-    "type": "pro / semi-chisel (varies by loop)"
+    "type": "pro / semi-chisel (varies by cutter/chisel profile)"
   },
   "drive_link_counts_supported": [64, 72, 78, 80],
   "products": [
@@ -14,61 +14,71 @@
     { "climax_sku": "CLC21YOP80", "drive_links": 80 }
   ],
   "mount_notes": {
-    "note": "For .325 .058 setups, mount varies by bar (common families include Husqvarna D009 / large mount and Stihl 3003/D025 in some configurations). Validate against bar mount code + bar stamp."
+    "note": "21YOP (.325, .058) is commonly used on Husqvarna/Jonsered pro mid-size saw setups. Fitment is bar-stamp driven: confirm .325 pitch + .058 gauge + drive link count on the bar/chain packaging. Entries marked config-dependent apply only if the saw is actually running a .058 bar/chain setup."
   },
   "fits_with_models_full_json": [
 
     /* =========================
-       HUSQVARNA (HIGH PRIORITY)
+       HUSQVARNA (PRIMARY ACCURATE COVERAGE)
        ========================= */
 
-    { "brand": "Husqvarna", "model": "545 (15-16in setup)", "mount_family": "D009 (varies by bar)", "drive_links": 64, "climax_sku": "CLC21YOP64" },
-    { "brand": "Husqvarna", "model": "545 (18in setup)", "mount_family": "D009 (varies by bar)", "drive_links": 72, "climax_sku": "CLC21YOP72" },
+    { "brand": "Husqvarna", "model": "545 (common .325 .058 setups)", "mount_family": "D009 (varies by bar)", "drive_links": 64, "climax_sku": "CLC21YOP64" },
+    { "brand": "Husqvarna", "model": "545 (common .325 .058 setups)", "mount_family": "D009 (varies by bar)", "drive_links": 72, "climax_sku": "CLC21YOP72" },
 
-    { "brand": "Husqvarna", "model": "550 XP / 550XP Mark II (15-16in setup)", "mount_family": "D009 (varies by bar)", "drive_links": 64, "climax_sku": "CLC21YOP64" },
-    { "brand": "Husqvarna", "model": "550 XP / 550XP Mark II (18in setup)", "mount_family": "D009 (varies by bar)", "drive_links": 72, "climax_sku": "CLC21YOP72" },
+    { "brand": "Husqvarna", "model": "550 XP / 550XP Mark II (common .325 .058 setups)", "mount_family": "D009 (varies by bar)", "drive_links": 64, "climax_sku": "CLC21YOP64" },
+    { "brand": "Husqvarna", "model": "550 XP / 550XP Mark II (common .325 .058 setups)", "mount_family": "D009 (varies by bar)", "drive_links": 72, "climax_sku": "CLC21YOP72" },
 
-    { "brand": "Husqvarna", "model": "346XP (15-16in setup)", "mount_family": "D009 (varies by bar)", "drive_links": 64, "climax_sku": "CLC21YOP64" },
-    { "brand": "Husqvarna", "model": "346XP (18in setup)", "mount_family": "D009 (varies by bar)", "drive_links": 72, "climax_sku": "CLC21YOP72" },
+    { "brand": "Husqvarna", "model": "346XP (common .325 .058 setups)", "mount_family": "D009 (varies by bar)", "drive_links": 64, "climax_sku": "CLC21YOP64" },
+    { "brand": "Husqvarna", "model": "346XP (common .325 .058 setups)", "mount_family": "D009 (varies by bar)", "drive_links": 72, "climax_sku": "CLC21YOP72" },
 
-    { "brand": "Husqvarna", "model": "353 (18in setup)", "mount_family": "D009 (varies by bar)", "drive_links": 72, "climax_sku": "CLC21YOP72" },
-    { "brand": "Husqvarna", "model": "353 (20in setup)", "mount_family": "D009 (varies by bar)", "drive_links": 78, "climax_sku": "CLC21YOP78" },
-
-    { "brand": "Husqvarna", "model": "455 Rancher (18in setup)", "mount_family": "D009 (varies by bar)", "drive_links": 72, "climax_sku": "CLC21YOP72" },
-    { "brand": "Husqvarna", "model": "455 Rancher (20in setup)", "mount_family": "D009 (varies by bar)", "drive_links": 78, "climax_sku": "CLC21YOP78" },
-
-    { "brand": "Husqvarna", "model": "460 Rancher (20in setup)", "mount_family": "D009 (varies by bar)", "drive_links": 78, "climax_sku": "CLC21YOP78" },
-    { "brand": "Husqvarna", "model": "460 Rancher (20in heavy setup)", "mount_family": "D009 (varies by bar)", "drive_links": 80, "climax_sku": "CLC21YOP80" },
+    { "brand": "Husqvarna", "model": "353 (common .325 .058 setups)", "mount_family": "D009 (varies by bar)", "drive_links": 72, "climax_sku": "CLC21YOP72" },
+    { "brand": "Husqvarna", "model": "353 (config-dependent longer bar)", "mount_family": "D009 (varies by bar)", "drive_links": 78, "climax_sku": "CLC21YOP78" },
 
     /* =========================
-       ECHO (HIGH PRIORITY)
+       JONSERED (HUSQVARNA PLATFORM)
        ========================= */
 
-    { "brand": "Echo", "model": "CS-4510ES (18in setup)", "mount_family": null, "drive_links": 72, "climax_sku": "CLC21YOP72" },
-    { "brand": "Echo", "model": "CS-490ESX (18in setup)", "mount_family": null, "drive_links": 72, "climax_sku": "CLC21YOP72" },
+    { "brand": "Jonsered", "model": "CS 2252 (common .325 .058 setups)", "mount_family": "D009 (varies by bar)", "drive_links": 64, "climax_sku": "CLC21YOP64" },
+    { "brand": "Jonsered", "model": "CS 2252 (common .325 .058 setups)", "mount_family": "D009 (varies by bar)", "drive_links": 72, "climax_sku": "CLC21YOP72" },
 
-    { "brand": "Echo", "model": "CS-501SX (20in setup)", "mount_family": null, "drive_links": 78, "climax_sku": "CLC21YOP78" },
-    { "brand": "Echo", "model": "CS-501SX (20in heavy setup)", "mount_family": null, "drive_links": 80, "climax_sku": "CLC21YOP80" },
-
-    { "brand": "Echo", "model": "CS-590 (18in setup)", "mount_family": null, "drive_links": 72, "climax_sku": "CLC21YOP72" },
-    { "brand": "Echo", "model": "CS-590 (20in setup)", "mount_family": null, "drive_links": 78, "climax_sku": "CLC21YOP78" },
+    { "brand": "Jonsered", "model": "CS 2253 (common .325 .058 setups)", "mount_family": "D009 (varies by bar)", "drive_links": 72, "climax_sku": "CLC21YOP72" },
+    { "brand": "Jonsered", "model": "CS 2253 (config-dependent longer bar)", "mount_family": "D009 (varies by bar)", "drive_links": 78, "climax_sku": "CLC21YOP78" },
 
     /* =========================
-       STIHL (CONFIGURATION-DEPENDENT)
+       HUSQVARNA RANCHER CLASS (CONFIG-DEPENDENT)
        ========================= */
 
-    { "brand": "Stihl", "model": "MS261 (config-dependent)", "mount_family": "Stihl 3003/D025 (varies by bar)", "drive_links": 64, "climax_sku": "CLC21YOP64" },
-    { "brand": "Stihl", "model": "MS261 (config-dependent)", "mount_family": "Stihl 3003/D025 (varies by bar)", "drive_links": 72, "climax_sku": "CLC21YOP72" },
+    { "brand": "Husqvarna", "model": "455 Rancher (config-dependent .325 .058 setup)", "mount_family": "D009 (varies by bar)", "drive_links": 72, "climax_sku": "CLC21YOP72" },
+    { "brand": "Husqvarna", "model": "455 Rancher (config-dependent longer bar)", "mount_family": "D009 (varies by bar)", "drive_links": 78, "climax_sku": "CLC21YOP78" },
+
+    { "brand": "Husqvarna", "model": "460 Rancher (config-dependent .325 .058 setup)", "mount_family": "D009 (varies by bar)", "drive_links": 78, "climax_sku": "CLC21YOP78" },
+    { "brand": "Husqvarna", "model": "460 Rancher (config-dependent longer bar)", "mount_family": "D009 (varies by bar)", "drive_links": 80, "climax_sku": "CLC21YOP80" },
 
     /* =========================
-       DOLMAR / MAKITA
+       STIHL (CONFIG-DEPENDENT — DO NOT ASSUME .058)
        ========================= */
 
-    { "brand": "Dolmar", "model": "PS-460 (18in setup)", "mount_family": null, "drive_links": 72, "climax_sku": "CLC21YOP72" },
-    { "brand": "Dolmar", "model": "PS-500 (20in setup)", "mount_family": null, "drive_links": 78, "climax_sku": "CLC21YOP78" },
+    { "brand": "Stihl", "model": "MS261 (config-dependent .325 .058 setup)", "mount_family": "Stihl 3003/D025 (varies by bar)", "drive_links": 64, "climax_sku": "CLC21YOP64" },
+    { "brand": "Stihl", "model": "MS261 (config-dependent .325 .058 setup)", "mount_family": "Stihl 3003/D025 (varies by bar)", "drive_links": 72, "climax_sku": "CLC21YOP72" },
 
-    { "brand": "Makita", "model": "EA5000P (20in setup)", "mount_family": null, "drive_links": 78, "climax_sku": "CLC21YOP78" },
-    { "brand": "Makita", "model": "EA6100P (20in heavy setup)", "mount_family": null, "drive_links": 80, "climax_sku": "CLC21YOP80" },
+    /* =========================
+       ECHO (CONFIG-DEPENDENT — DO NOT ASSUME .058)
+       ========================= */
+
+    { "brand": "Echo", "model": "CS-4510ES (config-dependent .325 .058 setup)", "mount_family": null, "drive_links": 72, "climax_sku": "CLC21YOP72" },
+    { "brand": "Echo", "model": "CS-490ESX (config-dependent .325 .058 setup)", "mount_family": null, "drive_links": 72, "climax_sku": "CLC21YOP72" },
+    { "brand": "Echo", "model": "CS-501SX (config-dependent .325 .058 setup)", "mount_family": null, "drive_links": 78, "climax_sku": "CLC21YOP78" },
+    { "brand": "Echo", "model": "CS-501SX (config-dependent longer bar)", "mount_family": null, "drive_links": 80, "climax_sku": "CLC21YOP80" },
+
+    /* =========================
+       MAKITA / DOLMAR (CONFIG-DEPENDENT — DO NOT ASSUME .058)
+       ========================= */
+
+    { "brand": "Makita", "model": "EA4300F (config-dependent .325 .058 setup)", "mount_family": null, "drive_links": 72, "climax_sku": "CLC21YOP72" },
+    { "brand": "Makita", "model": "EA5000P (config-dependent .325 .058 setup)", "mount_family": null, "drive_links": 78, "climax_sku": "CLC21YOP78" },
+
+    { "brand": "Dolmar", "model": "PS-460 (config-dependent .325 .058 setup)", "mount_family": null, "drive_links": 72, "climax_sku": "CLC21YOP72" },
+    { "brand": "Dolmar", "model": "PS-500 (config-dependent .325 .058 setup)", "mount_family": null, "drive_links": 78, "climax_sku": "CLC21YOP78" },
 
     /* =========================
        GENERIC (CRITICAL COVERAGE)
