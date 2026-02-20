@@ -1,0 +1,42 @@
+{
+  "chain_family": "Climax 20YNP",
+  "spec": {
+    "pitch": "0.325",
+    "gauge": "1.3mm / .050"
+  },
+  "fits_with_models_full_json": [
+
+    {"brand": "Husqvarna", "model": "435", "drive_links": 72, "climax_sku": "CLC20YNP72"},
+    {"brand": "Husqvarna", "model": "435e", "drive_links": 72, "climax_sku": "CLC20YNP72"},
+
+    {"brand": "Husqvarna", "model": "440", "drive_links": 64, "climax_sku": "CLC20YNP64"},
+    {"brand": "Husqvarna", "model": "440", "drive_links": 72, "climax_sku": "CLC20YNP72"},
+
+    {"brand": "Husqvarna", "model": "445", "drive_links": 64, "climax_sku": "CLC20YNP64"},
+    {"brand": "Husqvarna", "model": "445", "drive_links": 72, "climax_sku": "CLC20YNP72"},
+
+    {"brand": "Husqvarna", "model": "450", "drive_links": 72, "climax_sku": "CLC20YNP72"},
+
+    {"brand": "Echo", "model": "CS-390ESX", "drive_links": 64, "climax_sku": "CLC20YNP64"},
+    {"brand": "Echo", "model": "CS-390ESX", "drive_links": 72, "climax_sku": "CLC20YNP72"},
+
+    {"brand": "Echo", "model": "CS-4510ES", "drive_links": 72, "climax_sku": "CLC20YNP72"},
+    {"brand": "Echo", "model": "CS-4510ES", "drive_links": 80, "climax_sku": "CLC20YNP80"},
+
+    {"brand": "Makita", "model": "EA4300F", "drive_links": 64, "climax_sku": "CLC20YNP64"},
+    {"brand": "Makita", "model": "EA4300F", "drive_links": 72, "climax_sku": "CLC20YNP72"},
+
+    {"brand": "Makita", "model": "EA5000P", "drive_links": 80, "climax_sku": "CLC20YNP80"},
+
+    {"brand": "Dolmar", "model": "PS-420", "drive_links": 64, "climax_sku": "CLC20YNP64"},
+    {"brand": "Dolmar", "model": "PS-420", "drive_links": 72, "climax_sku": "CLC20YNP72"},
+
+    {"brand": "Poulan", "model": "PR4218", "drive_links": 72, "climax_sku": "CLC20YNP72"},
+    {"brand": "Poulan", "model": "PR4218", "drive_links": 80, "climax_sku": "CLC20YNP80"},
+
+    {"brand": "Generic", "model": "Any .325 .050 56DL setup", "drive_links": 56, "climax_sku": "CLC20YNP56"},
+    {"brand": "Generic", "model": "Any .325 .050 64DL setup", "drive_links": 64, "climax_sku": "CLC20YNP64"},
+    {"brand": "Generic", "model": "Any .325 .050 72DL setup", "drive_links": 72, "climax_sku": "CLC20YNP72"},
+    {"brand": "Generic", "model": "Any .325 .050 80DL setup", "drive_links": 80, "climax_sku": "CLC20YNP80"}
+  ]
+}
