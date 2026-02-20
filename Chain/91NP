@@ -1,11 +1,21 @@
 {
-  "chain_family": "Oregon 91PX", "Climax 91NP"
+  "chain_family": "Climax 91NP",
+  "oregon_equivalent_family": "Oregon 91PX",
   "spec": {
     "pitch": "3/8 LP",
     "gauge": "1.3mm / .050",
     "type": "low_profile"
   },
-  "drive_link_counts_supported": [44, 50, 52, 56, 62, 66, 72],
+  "drive_link_counts_supported": [44, 45, 50, 52, 55, 56, 64],
+  "products": [
+    { "climax_sku": "CLC91NP44", "drive_links": 44 },
+    { "climax_sku": "CLC91NP45", "drive_links": 45 },
+    { "climax_sku": "CLC91NP50", "drive_links": 50 },
+    { "climax_sku": "CLC91NP52", "drive_links": 52 },
+    { "climax_sku": "CLC91NP55", "drive_links": 55 },
+    { "climax_sku": "CLC91NP56", "drive_links": 56 },
+    { "climax_sku": "CLC91NP64", "drive_links": 64 }
+  ],
   "mount_notes": {
     "stihl_small_mount_oem": "Stihl 3005",
     "stihl_small_mount_oregon_xref_common": ["A074", "A041"],
@@ -14,85 +24,101 @@
   "fits_with_models_full_json": [
 
     /* =========================
-       STIHL (SMALL MOUNT - 3005)
+       STIHL (SMALL MOUNT)
        ========================= */
 
-    {"brand": "Stihl", "model": "MS170", "mount_family": "Stihl 3005 (A074/A041)", "drive_links": 44},
-    {"brand": "Stihl", "model": "MS171", "mount_family": "Stihl 3005 (A074/A041)", "drive_links": 44},
-    {"brand": "Stihl", "model": "MS180", "mount_family": "Stihl 3005 (A074/A041)", "drive_links": 44},
-    {"brand": "Stihl", "model": "MS181", "mount_family": "Stihl 3005 (A074/A041)", "drive_links": 44},
+    { "brand": "Stihl", "model": "MS162", "mount_family": "Stihl 3005 (A074/A041)", "drive_links": 44, "climax_sku": "CLC91NP44" },
+    { "brand": "Stihl", "model": "MS170", "mount_family": "Stihl 3005 (A074/A041)", "drive_links": 44, "climax_sku": "CLC91NP44" },
+    { "brand": "Stihl", "model": "MS171", "mount_family": "Stihl 3005 (A074/A041)", "drive_links": 44, "climax_sku": "CLC91NP44" },
+    { "brand": "Stihl", "model": "MS180", "mount_family": "Stihl 3005 (A074/A041)", "drive_links": 44, "climax_sku": "CLC91NP44" },
+    { "brand": "Stihl", "model": "MS181", "mount_family": "Stihl 3005 (A074/A041)", "drive_links": 44, "climax_sku": "CLC91NP44" },
 
-    {"brand": "Stihl", "model": "MS170", "mount_family": "Stihl 3005 (A074/A041)", "drive_links": 50},
-    {"brand": "Stihl", "model": "MS171", "mount_family": "Stihl 3005 (A074/A041)", "drive_links": 50},
-    {"brand": "Stihl", "model": "MS180", "mount_family": "Stihl 3005 (A074/A041)", "drive_links": 50},
-    {"brand": "Stihl", "model": "MS181", "mount_family": "Stihl 3005 (A074/A041)", "drive_links": 50},
-    {"brand": "Stihl", "model": "MS182", "mount_family": "Stihl 3005 (A074/A041)", "drive_links": 50},
-    {"brand": "Stihl", "model": "MS211", "mount_family": "Stihl 3005 (A074/A041)", "drive_links": 50},
+    { "brand": "Stihl", "model": "MS170", "mount_family": "Stihl 3005 (A074/A041)", "drive_links": 45, "climax_sku": "CLC91NP45" },
+    { "brand": "Stihl", "model": "MS171", "mount_family": "Stihl 3005 (A074/A041)", "drive_links": 45, "climax_sku": "CLC91NP45" },
+    { "brand": "Stihl", "model": "MS180 (short bar)", "mount_family": "Stihl 3005 (A074/A041)", "drive_links": 45, "climax_sku": "CLC91NP45" },
 
-    {"brand": "Stihl", "model": "MS211", "mount_family": "Stihl 3005 (A074/A041)", "drive_links": 56},
-    {"brand": "Stihl", "model": "MS231", "mount_family": "Stihl 3005 (A074/A041)", "drive_links": 56},
-    {"brand": "Stihl", "model": "MS241", "mount_family": "Stihl 3005 (A074/A041)", "drive_links": 56},
-    {"brand": "Stihl", "model": "MS251", "mount_family": "Stihl 3005 (A074/A041)", "drive_links": 56},
+    { "brand": "Stihl", "model": "MS170", "mount_family": "Stihl 3005 (A074/A041)", "drive_links": 50, "climax_sku": "CLC91NP50" },
+    { "brand": "Stihl", "model": "MS171", "mount_family": "Stihl 3005 (A074/A041)", "drive_links": 50, "climax_sku": "CLC91NP50" },
+    { "brand": "Stihl", "model": "MS180", "mount_family": "Stihl 3005 (A074/A041)", "drive_links": 50, "climax_sku": "CLC91NP50" },
+    { "brand": "Stihl", "model": "MS181", "mount_family": "Stihl 3005 (A074/A041)", "drive_links": 50, "climax_sku": "CLC91NP50" },
+    { "brand": "Stihl", "model": "MS182", "mount_family": "Stihl 3005 (A074/A041)", "drive_links": 50, "climax_sku": "CLC91NP50" },
+    { "brand": "Stihl", "model": "MS211", "mount_family": "Stihl 3005 (A074/A041)", "drive_links": 50, "climax_sku": "CLC91NP50" },
 
-    {"brand": "Stihl", "model": "MS231", "mount_family": "Stihl 3005 (A074/A041)", "drive_links": 62},
-    {"brand": "Stihl", "model": "MS241", "mount_family": "Stihl 3005 (A074/A041)", "drive_links": 62},
-    {"brand": "Stihl", "model": "MS251", "mount_family": "Stihl 3005 (A074/A041)", "drive_links": 62},
+    { "brand": "Stihl", "model": "MS211", "mount_family": "Stihl 3005 (A074/A041)", "drive_links": 55, "climax_sku": "CLC91NP55" },
+    { "brand": "Stihl", "model": "MS212 (some kits)", "mount_family": "Stihl 3005 (A074/A041)", "drive_links": 55, "climax_sku": "CLC91NP55" },
 
-    {"brand": "Stihl", "model": "MS251", "mount_family": "Stihl 3005 (A074/A041)", "drive_links": 66},
-    {"brand": "Stihl", "model": "MS271", "mount_family": "Stihl 3005 (A074/A041)", "drive_links": 66},
+    { "brand": "Stihl", "model": "MS231", "mount_family": "Stihl 3005 (A074/A041)", "drive_links": 56, "climax_sku": "CLC91NP56" },
+    { "brand": "Stihl", "model": "MS241", "mount_family": "Stihl 3005 (A074/A041)", "drive_links": 56, "climax_sku": "CLC91NP56" },
+    { "brand": "Stihl", "model": "MS251", "mount_family": "Stihl 3005 (A074/A041)", "drive_links": 56, "climax_sku": "CLC91NP56" },
 
-    {"brand": "Stihl", "model": "MS271", "mount_family": "Stihl 3005 (A074/A041)", "drive_links": 72},
-    {"brand": "Stihl", "model": "MS291", "mount_family": "Stihl 3005 (A074/A041)", "drive_links": 72},
+    { "brand": "Stihl", "model": "MS231 (longer bar)", "mount_family": "Stihl 3005 (A074/A041)", "drive_links": 64, "climax_sku": "CLC91NP64" },
+    { "brand": "Stihl", "model": "MS251 (longer bar)", "mount_family": "Stihl 3005 (A074/A041)", "drive_links": 64, "climax_sku": "CLC91NP64" },
 
-    {"brand": "Stihl", "model": "MSE170", "mount_family": "Stihl 3005 (A074/A041)", "drive_links": 44},
-    {"brand": "Stihl", "model": "MSE180", "mount_family": "Stihl 3005 (A074/A041)", "drive_links": 50},
-    {"brand": "Stihl", "model": "MSE210", "mount_family": "Stihl 3005 (A074/A041)", "drive_links": 56},
+    { "brand": "Stihl", "model": "MSE170", "mount_family": "Stihl 3005 (A074/A041)", "drive_links": 44, "climax_sku": "CLC91NP44" },
+    { "brand": "Stihl", "model": "MSE180", "mount_family": "Stihl 3005 (A074/A041)", "drive_links": 50, "climax_sku": "CLC91NP50" },
+    { "brand": "Stihl", "model": "MSE210", "mount_family": "Stihl 3005 (A074/A041)", "drive_links": 56, "climax_sku": "CLC91NP56" },
 
     /* =========================
-       HUSQVARNA (K095)
+       HUSQVARNA
        ========================= */
 
-    {"brand": "Husqvarna", "model": "120 Mark II", "mount_family": "K095/Z095", "drive_links": 44},
-    {"brand": "Husqvarna", "model": "130", "mount_family": "K095/Z095", "drive_links": 50},
-    {"brand": "Husqvarna", "model": "135 Mark II", "mount_family": "K095/Z095", "drive_links": 50},
-    {"brand": "Husqvarna", "model": "236", "mount_family": "K095/Z095", "drive_links": 50},
-    {"brand": "Husqvarna", "model": "240", "mount_family": "K095/Z095", "drive_links": 50},
+    { "brand": "Husqvarna", "model": "120 Mark II", "mount_family": "K095/Z095", "drive_links": 44, "climax_sku": "CLC91NP44" },
+    { "brand": "Husqvarna", "model": "120i", "mount_family": "K095/Z095", "drive_links": 44, "climax_sku": "CLC91NP44" },
 
-    {"brand": "Husqvarna", "model": "240", "mount_family": "K095/Z095", "drive_links": 56},
-    {"brand": "Husqvarna", "model": "435", "mount_family": "K095/Z095", "drive_links": 56},
-    {"brand": "Husqvarna", "model": "440", "mount_family": "K095/Z095", "drive_links": 56},
+    { "brand": "Husqvarna", "model": "130", "mount_family": "K095/Z095", "drive_links": 50, "climax_sku": "CLC91NP50" },
+    { "brand": "Husqvarna", "model": "135 Mark II", "mount_family": "K095/Z095", "drive_links": 50, "climax_sku": "CLC91NP50" },
+    { "brand": "Husqvarna", "model": "236", "mount_family": "K095/Z095", "drive_links": 50, "climax_sku": "CLC91NP50" },
+    { "brand": "Husqvarna", "model": "240", "mount_family": "K095/Z095", "drive_links": 50, "climax_sku": "CLC91NP50" },
 
-    {"brand": "Husqvarna", "model": "435", "mount_family": "K095/Z095", "drive_links": 62},
-    {"brand": "Husqvarna", "model": "440", "mount_family": "K095/Z095", "drive_links": 62},
-    {"brand": "Husqvarna", "model": "445", "mount_family": "K095/Z095", "drive_links": 66},
-    {"brand": "Husqvarna", "model": "450", "mount_family": "K095/Z095", "drive_links": 72},
+    { "brand": "Husqvarna", "model": "240", "mount_family": "K095/Z095", "drive_links": 56, "climax_sku": "CLC91NP56" },
+    { "brand": "Husqvarna", "model": "435", "mount_family": "K095/Z095", "drive_links": 56, "climax_sku": "CLC91NP56" },
+    { "brand": "Husqvarna", "model": "440", "mount_family": "K095/Z095", "drive_links": 56, "climax_sku": "CLC91NP56" },
 
-    {"brand": "Husqvarna", "model": "120i", "mount_family": "K095/Z095", "drive_links": 44},
-    {"brand": "Husqvarna", "model": "330i", "mount_family": "K095/Z095", "drive_links": 50},
-    {"brand": "Husqvarna", "model": "340i", "mount_family": "K095/Z095", "drive_links": 50},
+    { "brand": "Husqvarna", "model": "435", "mount_family": "K095/Z095", "drive_links": 64, "climax_sku": "CLC91NP64" },
+    { "brand": "Husqvarna", "model": "440", "mount_family": "K095/Z095", "drive_links": 64, "climax_sku": "CLC91NP64" },
+    { "brand": "Husqvarna", "model": "445 (some kits)", "mount_family": "K095/Z095", "drive_links": 64, "climax_sku": "CLC91NP64" },
 
     /* =========================
-       OTHER BRANDS (NO FIXED MOUNT DECLARED)
+       ECHO (HIGH PRIORITY)
        ========================= */
 
-    {"brand": "Echo", "model": "CS-310ES", "mount_family": null, "drive_links": 50},
-    {"brand": "Echo", "model": "CS-3510ES", "mount_family": null, "drive_links": 50},
-    {"brand": "Echo", "model": "CS-370ES", "mount_family": null, "drive_links": 56},
-    {"brand": "Echo", "model": "CS-420ES", "mount_family": null, "drive_links": 62},
+    { "brand": "Echo", "model": "CS-310ES", "mount_family": null, "drive_links": 50, "climax_sku": "CLC91NP50" },
+    { "brand": "Echo", "model": "CS-3510ES", "mount_family": null, "drive_links": 50, "climax_sku": "CLC91NP50" },
+    { "brand": "Echo", "model": "CS-370ES", "mount_family": null, "drive_links": 56, "climax_sku": "CLC91NP56" },
 
-    {"brand": "Makita", "model": "EA3200S", "mount_family": null, "drive_links": 50},
-    {"brand": "Makita", "model": "EA4300F", "mount_family": null, "drive_links": 56},
+    /* =========================
+       BATTERY / ELECTRIC
+       ========================= */
 
-    {"brand": "DeWalt", "model": "DCCS620", "mount_family": null, "drive_links": 50},
-    {"brand": "DeWalt", "model": "DCCS670", "mount_family": null, "drive_links": 56},
+    { "brand": "Makita", "model": "DUC254", "mount_family": null, "drive_links": 44, "climax_sku": "CLC91NP44" },
+    { "brand": "Makita", "model": "DUC302", "mount_family": null, "drive_links": 50, "climax_sku": "CLC91NP50" },
+    { "brand": "Makita", "model": "DUC353", "mount_family": null, "drive_links": 52, "climax_sku": "CLC91NP52" },
+    { "brand": "Makita", "model": "DUC355", "mount_family": null, "drive_links": 52, "climax_sku": "CLC91NP52" },
 
-    {"brand": "EGO", "model": "CS1400", "mount_family": null, "drive_links": 52},
-    {"brand": "EGO", "model": "CS1600", "mount_family": null, "drive_links": 56},
+    { "brand": "DeWalt", "model": "DCCS620", "mount_family": null, "drive_links": 45, "climax_sku": "CLC91NP45" },
+    { "brand": "DeWalt", "model": "DCCS670", "mount_family": null, "drive_links": 56, "climax_sku": "CLC91NP56" },
 
-    {"brand": "Ryobi", "model": "RY40530", "mount_family": null, "drive_links": 62},
-    {"brand": "Greenworks", "model": "20312", "mount_family": null, "drive_links": 50},
+    { "brand": "EGO", "model": "CS1400", "mount_family": null, "drive_links": 52, "climax_sku": "CLC91NP52" },
+    { "brand": "EGO", "model": "CS1410", "mount_family": null, "drive_links": 52, "climax_sku": "CLC91NP52" },
+    { "brand": "EGO", "model": "CS1600", "mount_family": null, "drive_links": 56, "climax_sku": "CLC91NP56" },
 
-    {"brand": "Efco", "model": "MT3500", "mount_family": null, "drive_links": 50},
-    {"brand": "Oleo-Mac", "model": "GS371", "mount_family": null, "drive_links": 50}
+    { "brand": "Ryobi", "model": "RY40500", "mount_family": null, "drive_links": 52, "climax_sku": "CLC91NP52" },
+    { "brand": "Ryobi", "model": "RY40510", "mount_family": null, "drive_links": 52, "climax_sku": "CLC91NP52" },
+    { "brand": "Ryobi", "model": "RY40530", "mount_family": null, "drive_links": 56, "climax_sku": "CLC91NP56" },
+
+    { "brand": "Greenworks", "model": "20312", "mount_family": null, "drive_links": 50, "climax_sku": "CLC91NP50" },
+    { "brand": "Greenworks", "model": "20322", "mount_family": null, "drive_links": 50, "climax_sku": "CLC91NP50" },
+
+    /* =========================
+       GENERIC (CRITICAL COVERAGE)
+       ========================= */
+
+    { "brand": "Generic", "model": "Any saw using 3/8 LP .050 44DL", "mount_family": null, "drive_links": 44, "climax_sku": "CLC91NP44" },
+    { "brand": "Generic", "model": "Any saw using 3/8 LP .050 45DL", "mount_family": null, "drive_links": 45, "climax_sku": "CLC91NP45" },
+    { "brand": "Generic", "model": "Any saw using 3/8 LP .050 50DL", "mount_family": null, "drive_links": 50, "climax_sku": "CLC91NP50" },
+    { "brand": "Generic", "model": "Any saw using 3/8 LP .050 52DL", "mount_family": null, "drive_links": 52, "climax_sku": "CLC91NP52" },
+    { "brand": "Generic", "model": "Any saw using 3/8 LP .050 55DL", "mount_family": null, "drive_links": 55, "climax_sku": "CLC91NP55" },
+    { "brand": "Generic", "model": "Any saw using 3/8 LP .050 56DL", "mount_family": null, "drive_links": 56, "climax_sku": "CLC91NP56" },
+    { "brand": "Generic", "model": "Any saw using 3/8 LP .050 64DL", "mount_family": null, "drive_links": 64, "climax_sku": "CLC91NP64" }
   ]
 }
