@@ -47,21 +47,6 @@
     { "brand": "Jonsered", "model": "CS 2171 / CS 2166 (common 3/8 .058 setups)", "mount_family": "D009/D008 (varies by bar)", "drive_links": 92, "climax_sku": "CLC73LP92" },
     { "brand": "Jonsered", "model": "CS 2171 / CS 2166 (common longer bar setups)", "mount_family": "D009/D008 (varies by bar)", "drive_links": 98, "climax_sku": "CLC73LP98" },
 
-    /* =========================
-       STIHL (CONFIG-DEPENDENT — DO NOT ASSUME .058)
-       ========================= */
-
-    { "brand": "Stihl", "model": "MS362 (config-dependent .058 setup)", "mount_family": "Stihl 3003/3002 (varies by bar)", "drive_links": 84, "climax_sku": "CLC73LP84" },
-    { "brand": "Stihl", "model": "MS362 (config-dependent longer bar)", "mount_family": "Stihl 3003/3002 (varies by bar)", "drive_links": 92, "climax_sku": "CLC73LP92" },
-
-    { "brand": "Stihl", "model": "MS400 C-M (config-dependent .058 setup)", "mount_family": "Stihl 3003/3002 (varies by bar)", "drive_links": 84, "climax_sku": "CLC73LP84" },
-    { "brand": "Stihl", "model": "MS400 C-M (config-dependent longer bar)", "mount_family": "Stihl 3003/3002 (varies by bar)", "drive_links": 92, "climax_sku": "CLC73LP92" },
-
-    { "brand": "Stihl", "model": "MS462 (config-dependent .058 setup)", "mount_family": "Stihl 3003/3002 (varies by bar)", "drive_links": 92, "climax_sku": "CLC73LP92" },
-    { "brand": "Stihl", "model": "MS462 (config-dependent longer bar)", "mount_family": "Stihl 3003/3002 (varies by bar)", "drive_links": 98, "climax_sku": "CLC73LP98" },
-
-    { "brand": "Stihl", "model": "MS500i (config-dependent .058 setup)", "mount_family": "Stihl 3003/3002 (varies by bar)", "drive_links": 92, "climax_sku": "CLC73LP92" },
-    { "brand": "Stihl", "model": "MS500i (config-dependent longer bar)", "mount_family": "Stihl 3003/3002 (varies by bar)", "drive_links": 98, "climax_sku": "CLC73LP98" },
 
     /* =========================
        ECHO (CONFIG-DEPENDENT — DO NOT ASSUME .058)
