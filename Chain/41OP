@@ -28,11 +28,13 @@
     /* =========================
        ECHO (VERIFIED PLATFORM — CONFIG-DEPENDENT)
        ========================= */
+{ "brand": "Echo", "model": "CS-360TES (config-dependent 1/4 .050 setup)", "mount_family": null, "drive_links": 58, "climax_sku": "CLC41OP58" },
+{ "brand": "Echo", "model": "CS-360WES (config-dependent 1/4 .050 setup)", "mount_family": null, "drive_links": 58, "climax_sku": "CLC41OP58" },
 
     { "brand": "Echo", "model": "CS-355T (config-dependent 1/4 .050 setup)", "mount_family": null, "drive_links": 58, "climax_sku": "CLC41OP58" },
-    { "brand": "Echo", "model": "CS-360TES / CS-360WES (config-dependent 1/4 .050 setup)", "mount_family": null, "drive_links": 58, "climax_sku": "CLC41OP58" },
+    { "brand": "Echo", "model": "CS-362TES (config-dependent 1/4 .050 setup)", "mount_family": null, "drive_links": 58, "climax_sku": "CLC41OP58" },
     { "brand": "Echo", "model": "CS-361WES (config-dependent 1/4 .050 setup)", "mount_family": null, "drive_links": 58, "climax_sku": "CLC41OP58" },
-    { "brand": "Echo", "model": "CS-362TES / CS-362WES (config-dependent 1/4 .050 setup)", "mount_family": null, "drive_links": 58, "climax_sku": "CLC41OP58" },
+    { "brand": "Echo", "model": "CS-362WES (config-dependent 1/4 .050 setup)", "mount_family": null, "drive_links": 58, "climax_sku": "CLC41OP58" },
 { "brand": "Echo", "model": "CS-302 (config-dependent 1/4 .050 setup)", "mount_family": null, "drive_links": 58, "climax_sku": "CLC41OP58" },
 { "brand": "Echo", "model": "CS-304VL (config-dependent 1/4 .050 setup)", "mount_family": null, "drive_links": 58, "climax_sku": "CLC41OP58" },
 { "brand": "Echo", "model": "CS-351 (config-dependent 1/4 .050 setup)", "mount_family": null, "drive_links": 58, "climax_sku": "CLC41OP58" },
