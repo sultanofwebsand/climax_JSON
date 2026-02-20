@@ -1,0 +1,150 @@
+{
+  "chain_family": "Oregon 90PX", "Climax 90NP"
+  "spec": {
+    "pitch": "3/8 LP",
+    "gauge": "1.1mm",
+    "type": "low_profile"
+  },
+  "fits_with_models_full_json": [
+
+    /* =========================
+       STIHL (CORE RANGE)
+       ========================= */
+
+    {"brand": "Stihl", "model": "MS162", "drive_links": 44},
+    {"brand": "Stihl", "model": "MS170", "drive_links": 44},
+    {"brand": "Stihl", "model": "MS171", "drive_links": 44},
+    {"brand": "Stihl", "model": "MS180", "drive_links": 44},
+    {"brand": "Stihl", "model": "MS181", "drive_links": 44},
+    {"brand": "Stihl", "model": "MS192", "drive_links": 44},
+    {"brand": "Stihl", "model": "MS192T", "drive_links": 44},
+    {"brand": "Stihl", "model": "MS193", "drive_links": 44},
+    {"brand": "Stihl", "model": "MS194T", "drive_links": 44},
+    {"brand": "Stihl", "model": "MS200T", "drive_links": 44},
+    {"brand": "Stihl", "model": "MS201T", "drive_links": 44},
+
+    {"brand": "Stihl", "model": "MS170", "drive_links": 50},
+    {"brand": "Stihl", "model": "MS171", "drive_links": 50},
+    {"brand": "Stihl", "model": "MS180", "drive_links": 50},
+    {"brand": "Stihl", "model": "MS181", "drive_links": 50},
+    {"brand": "Stihl", "model": "MS182", "drive_links": 50},
+    {"brand": "Stihl", "model": "MS211", "drive_links": 50},
+    {"brand": "Stihl", "model": "MS212", "drive_links": 50},
+    {"brand": "Stihl", "model": "MS231", "drive_links": 50},
+
+    {"brand": "Stihl", "model": "MS231", "drive_links": 56},
+    {"brand": "Stihl", "model": "MS241", "drive_links": 56},
+    {"brand": "Stihl", "model": "MS251", "drive_links": 56},
+
+    {"brand": "Stihl", "model": "MSE140", "drive_links": 44},
+    {"brand": "Stihl", "model": "MSE141", "drive_links": 44},
+    {"brand": "Stihl", "model": "MSE170", "drive_links": 44},
+    {"brand": "Stihl", "model": "MSE170C", "drive_links": 44},
+    {"brand": "Stihl", "model": "MSE180", "drive_links": 50},
+    {"brand": "Stihl", "model": "MSE190", "drive_links": 50},
+    {"brand": "Stihl", "model": "MSE210", "drive_links": 56},
+
+    {"brand": "Stihl", "model": "HT70", "drive_links": 44},
+    {"brand": "Stihl", "model": "HT75", "drive_links": 44},
+    {"brand": "Stihl", "model": "HT100", "drive_links": 44},
+    {"brand": "Stihl", "model": "HT101", "drive_links": 44},
+    {"brand": "Stihl", "model": "HT131", "drive_links": 50},
+
+    /* =========================
+       HUSQVARNA
+       ========================= */
+
+    {"brand": "Husqvarna", "model": "120 Mark II", "drive_links": 44},
+    {"brand": "Husqvarna", "model": "135 Mark II", "drive_links": 50},
+    {"brand": "Husqvarna", "model": "236", "drive_links": 50},
+    {"brand": "Husqvarna", "model": "240", "drive_links": 50},
+    {"brand": "Husqvarna", "model": "T525", "drive_links": 44},
+    {"brand": "Husqvarna", "model": "T435", "drive_links": 44},
+
+    {"brand": "Husqvarna", "model": "120i", "drive_links": 44},
+    {"brand": "Husqvarna", "model": "330i", "drive_links": 50},
+    {"brand": "Husqvarna", "model": "340i", "drive_links": 50},
+
+    /* =========================
+       ECHO
+       ========================= */
+
+    {"brand": "Echo", "model": "CS-2511TES", "drive_links": 44},
+    {"brand": "Echo", "model": "CS-271TES", "drive_links": 44},
+    {"brand": "Echo", "model": "CS-280TES", "drive_links": 44},
+    {"brand": "Echo", "model": "CS-310ES", "drive_links": 50},
+    {"brand": "Echo", "model": "CS-3510ES", "drive_links": 50},
+    {"brand": "Echo", "model": "CS-362TES", "drive_links": 50},
+    {"brand": "Echo", "model": "CS-390ESX", "drive_links": 56},
+
+    /* =========================
+       MAKITA / DOLMAR
+       ========================= */
+
+    {"brand": "Makita", "model": "EA3200S", "drive_links": 50},
+    {"brand": "Makita", "model": "EA3500S", "drive_links": 50},
+    {"brand": "Makita", "model": "EA4300F", "drive_links": 56},
+
+    {"brand": "Makita", "model": "DUC254", "drive_links": 44},
+    {"brand": "Makita", "model": "DUC353", "drive_links": 52},
+    {"brand": "Makita", "model": "DUC355", "drive_links": 52},
+    {"brand": "Makita", "model": "DUC400", "drive_links": 52},
+
+    {"brand": "Dolmar", "model": "PS32C", "drive_links": 50},
+    {"brand": "Dolmar", "model": "PS35C", "drive_links": 50},
+    {"brand": "Dolmar", "model": "PS420", "drive_links": 56},
+
+    /* =========================
+       BATTERY / DIY BRANDS
+       ========================= */
+
+    {"brand": "DeWalt", "model": "DCCS620", "drive_links": 44},
+    {"brand": "DeWalt", "model": "DCCS670", "drive_links": 56},
+    {"brand": "DeWalt", "model": "DCCS690", "drive_links": 56},
+
+    {"brand": "Milwaukee", "model": "M18 FCHS", "drive_links": 50},
+    {"brand": "Milwaukee", "model": "M18 FCHSC", "drive_links": 50},
+
+    {"brand": "EGO", "model": "CS1400", "drive_links": 52},
+    {"brand": "EGO", "model": "CS1600", "drive_links": 56},
+    {"brand": "EGO", "model": "CS1800", "drive_links": 56},
+
+    {"brand": "Ryobi", "model": "RY40500", "drive_links": 52},
+    {"brand": "Ryobi", "model": "RY40530", "drive_links": 56},
+    {"brand": "Ryobi", "model": "RY3716", "drive_links": 56},
+
+    {"brand": "Greenworks", "model": "20152", "drive_links": 56},
+    {"brand": "Greenworks", "model": "20312", "drive_links": 50},
+    {"brand": "Greenworks", "model": "20322", "drive_links": 50},
+
+    /* =========================
+       EFCO / OLEO-MAC
+       ========================= */
+
+    {"brand": "Efco", "model": "MT3500", "drive_links": 50},
+    {"brand": "Efco", "model": "MT3710", "drive_links": 50},
+    {"brand": "Efco", "model": "EF15E", "drive_links": 44},
+
+    {"brand": "Oleo-Mac", "model": "GS350", "drive_links": 50},
+    {"brand": "Oleo-Mac", "model": "GS371", "drive_links": 50},
+    {"brand": "Oleo-Mac", "model": "OM15E", "drive_links": 44},
+
+    /* =========================
+       ALPINA / MOUNTFIELD
+       ========================= */
+
+    {"brand": "Alpina", "model": "ACS38", "drive_links": 50},
+    {"brand": "Alpina", "model": "ACS41", "drive_links": 50},
+    {"brand": "Mountfield", "model": "MC3520", "drive_links": 50},
+
+    /* =========================
+       MCCULLOCH / PARTNER
+       ========================= */
+
+    {"brand": "McCulloch", "model": "CS35", "drive_links": 50},
+    {"brand": "McCulloch", "model": "CS380", "drive_links": 50},
+    {"brand": "Partner", "model": "P340S", "drive_links": 50},
+    {"brand": "Partner", "model": "P350S", "drive_links": 50}
+
+  ]
+}
