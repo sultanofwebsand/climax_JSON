@@ -1,193 +1,78 @@
 {
-  "chain_family": "Oregon 90PX", "Climax 90YP"
+  "chain_family": "Climax 90NP",
+  "oregon_equivalent_family": "Oregon 90PX",
   "spec": {
     "pitch": "3/8 LP",
     "gauge": "1.1mm / .043",
     "type": "low_profile"
   },
-  "drive_link_counts_supported": [44, 50, 52, 56],
+  "drive_link_counts_supported": [44, 50],
   "mount_notes": {
     "stihl_small_mount_oem": "Stihl 3005",
     "stihl_small_mount_oregon_xref_common": ["A074", "A041"],
     "husqvarna_small_mount_oregon": ["K095", "Z095"]
   },
   "fits_with_models_full_json": [
-    /* =========================
-       STIHL (Small mount family)
-       ========================= */
-    { "brand": "Stihl", "model": "009", "mount_family": "Stihl 3005 (A074/A041)", "drive_links": 44 },
-    { "brand": "Stihl", "model": "010", "mount_family": "Stihl 3005 (A074/A041)", "drive_links": 44 },
-    { "brand": "Stihl", "model": "011", "mount_family": "Stihl 3005 (A074/A041)", "drive_links": 44 },
-
-    { "brand": "Stihl", "model": "017", "mount_family": "Stihl 3005 (A074/A041)", "drive_links": 44 },
-    { "brand": "Stihl", "model": "018", "mount_family": "Stihl 3005 (A074/A041)", "drive_links": 44 },
-    { "brand": "Stihl", "model": "019T", "mount_family": "Stihl 3005 (A074/A041)", "drive_links": 44 },
-    { "brand": "Stihl", "model": "023", "mount_family": "Stihl 3005 (A074/A041)", "drive_links": 50 },
-    { "brand": "Stihl", "model": "023L", "mount_family": "Stihl 3005 (A074/A041)", "drive_links": 50 },
-
-    { "brand": "Stihl", "model": "MS150T", "mount_family": "Stihl 3005 (A074/A041)", "drive_links": 44 },
-    { "brand": "Stihl", "model": "MS151", "mount_family": "Stihl 3005 (A074/A041)", "drive_links": 44 },
-
-    { "brand": "Stihl", "model": "MS162", "mount_family": "Stihl 3005 (A074/A041)", "drive_links": 44 },
-    { "brand": "Stihl", "model": "MS170", "mount_family": "Stihl 3005 (A074/A041)", "drive_links": 44 },
-    { "brand": "Stihl", "model": "MS170", "mount_family": "Stihl 3005 (A074/A041)", "drive_links": 50 },
-
-    { "brand": "Stihl", "model": "MS171", "mount_family": "Stihl 3005 (A074/A041)", "drive_links": 44 },
-    { "brand": "Stihl", "model": "MS171", "mount_family": "Stihl 3005 (A074/A041)", "drive_links": 50 },
-
-    { "brand": "Stihl", "model": "MS180", "mount_family": "Stihl 3005 (A074/A041)", "drive_links": 44 },
-    { "brand": "Stihl", "model": "MS180", "mount_family": "Stihl 3005 (A074/A041)", "drive_links": 50 },
-
-    { "brand": "Stihl", "model": "MS181", "mount_family": "Stihl 3005 (A074/A041)", "drive_links": 44 },
-    { "brand": "Stihl", "model": "MS181", "mount_family": "Stihl 3005 (A074/A041)", "drive_links": 50 },
-
-    { "brand": "Stihl", "model": "MS182", "mount_family": "Stihl 3005 (A074/A041)", "drive_links": 50 },
-
-    { "brand": "Stihl", "model": "MS190T", "mount_family": "Stihl 3005 (A074/A041)", "drive_links": 44 },
-    { "brand": "Stihl", "model": "MS191T", "mount_family": "Stihl 3005 (A074/A041)", "drive_links": 44 },
-
-    { "brand": "Stihl", "model": "MS192", "mount_family": "Stihl 3005 (A074/A041)", "drive_links": 44 },
-    { "brand": "Stihl", "model": "MS192T", "mount_family": "Stihl 3005 (A074/A041)", "drive_links": 44 },
-
-    { "brand": "Stihl", "model": "MS193", "mount_family": "Stihl 3005 (A074/A041)", "drive_links": 44 },
-    { "brand": "Stihl", "model": "MS194T", "mount_family": "Stihl 3005 (A074/A041)", "drive_links": 44 },
-
-    { "brand": "Stihl", "model": "MS200T", "mount_family": "Stihl 3005 (A074/A041)", "drive_links": 44 },
-    { "brand": "Stihl", "model": "MS201T", "mount_family": "Stihl 3005 (A074/A041)", "drive_links": 44 },
-
-    { "brand": "Stihl", "model": "MS211", "mount_family": "Stihl 3005 (A074/A041)", "drive_links": 50 },
-    { "brand": "Stihl", "model": "MS212", "mount_family": "Stihl 3005 (A074/A041)", "drive_links": 50 },
-
-    { "brand": "Stihl", "model": "HT70", "mount_family": "Stihl 3005 (A074/A041)", "drive_links": 44 },
-    { "brand": "Stihl", "model": "HT75", "mount_family": "Stihl 3005 (A074/A041)", "drive_links": 44 },
-    { "brand": "Stihl", "model": "HT100", "mount_family": "Stihl 3005 (A074/A041)", "drive_links": 44 },
-    { "brand": "Stihl", "model": "HT101", "mount_family": "Stihl 3005 (A074/A041)", "drive_links": 44 },
-    { "brand": "Stihl", "model": "HT131", "mount_family": "Stihl 3005 (A074/A041)", "drive_links": 50 },
-
-    { "brand": "Stihl", "model": "MSE140", "mount_family": "Stihl 3005 (A074/A041)", "drive_links": 44 },
-    { "brand": "Stihl", "model": "MSE141", "mount_family": "Stihl 3005 (A074/A041)", "drive_links": 44 },
-    { "brand": "Stihl", "model": "MSE170", "mount_family": "Stihl 3005 (A074/A041)", "drive_links": 44 },
-    { "brand": "Stihl", "model": "MSE170C", "mount_family": "Stihl 3005 (A074/A041)", "drive_links": 44 },
-    { "brand": "Stihl", "model": "MSE180", "mount_family": "Stihl 3005 (A074/A041)", "drive_links": 50 },
-    { "brand": "Stihl", "model": "MSE190", "mount_family": "Stihl 3005 (A074/A041)", "drive_links": 50 },
-    { "brand": "Stihl", "model": "MSE210", "mount_family": "Stihl 3005 (A074/A041)", "drive_links": 56 },
 
     /* =========================
-       HUSQVARNA (Small mount family)
+       STIHL (SMALL MOUNT)
        ========================= */
-    { "brand": "Husqvarna", "model": "120 Mark II", "mount_family": "K095/Z095", "drive_links": 44 },
-    { "brand": "Husqvarna", "model": "130", "mount_family": "K095/Z095", "drive_links": 50 },
-    { "brand": "Husqvarna", "model": "135 Mark II", "mount_family": "K095/Z095", "drive_links": 50 },
-    { "brand": "Husqvarna", "model": "136", "mount_family": "K095/Z095", "drive_links": 50 },
-    { "brand": "Husqvarna", "model": "137", "mount_family": "K095/Z095", "drive_links": 50 },
-    { "brand": "Husqvarna", "model": "140", "mount_family": "K095/Z095", "drive_links": 50 },
-    { "brand": "Husqvarna", "model": "141", "mount_family": "K095/Z095", "drive_links": 50 },
-    { "brand": "Husqvarna", "model": "142", "mount_family": "K095/Z095", "drive_links": 50 },
-    { "brand": "Husqvarna", "model": "235", "mount_family": "K095/Z095", "drive_links": 50 },
-    { "brand": "Husqvarna", "model": "236", "mount_family": "K095/Z095", "drive_links": 50 },
-    { "brand": "Husqvarna", "model": "240", "mount_family": "K095/Z095", "drive_links": 50 },
-    { "brand": "Husqvarna", "model": "T525", "mount_family": "K095/Z095", "drive_links": 44 },
-    { "brand": "Husqvarna", "model": "T435", "mount_family": "K095/Z095", "drive_links": 44 },
 
-    { "brand": "Husqvarna", "model": "120i", "mount_family": "K095/Z095", "drive_links": 44 },
-    { "brand": "Husqvarna", "model": "240i", "mount_family": "K095/Z095", "drive_links": 50 },
-    { "brand": "Husqvarna", "model": "330i", "mount_family": "K095/Z095", "drive_links": 50 },
-    { "brand": "Husqvarna", "model": "340i", "mount_family": "K095/Z095", "drive_links": 50 },
+    {"brand": "Stihl", "model": "MS162", "mount_family": "Stihl 3005 (A074/A041)", "drive_links": 44, "climax_sku": "CLC90YP44"},
+    {"brand": "Stihl", "model": "MS170", "mount_family": "Stihl 3005 (A074/A041)", "drive_links": 44, "climax_sku": "CLC90YP44"},
+    {"brand": "Stihl", "model": "MS171", "mount_family": "Stihl 3005 (A074/A041)", "drive_links": 44, "climax_sku": "CLC90YP44"},
+    {"brand": "Stihl", "model": "MS180", "mount_family": "Stihl 3005 (A074/A041)", "drive_links": 44, "climax_sku": "CLC90YP44"},
+    {"brand": "Stihl", "model": "MS181", "mount_family": "Stihl 3005 (A074/A041)", "drive_links": 44, "climax_sku": "CLC90YP44"},
+    {"brand": "Stihl", "model": "MS192", "mount_family": "Stihl 3005 (A074/A041)", "drive_links": 44, "climax_sku": "CLC90YP44"},
+    {"brand": "Stihl", "model": "MS192T", "mount_family": "Stihl 3005 (A074/A041)", "drive_links": 44, "climax_sku": "CLC90YP44"},
+    {"brand": "Stihl", "model": "MS193", "mount_family": "Stihl 3005 (A074/A041)", "drive_links": 44, "climax_sku": "CLC90YP44"},
+    {"brand": "Stihl", "model": "MS194T", "mount_family": "Stihl 3005 (A074/A041)", "drive_links": 44, "climax_sku": "CLC90YP44"},
+    {"brand": "Stihl", "model": "MS200T", "mount_family": "Stihl 3005 (A074/A041)", "drive_links": 44, "climax_sku": "CLC90YP44"},
+    {"brand": "Stihl", "model": "MS201T", "mount_family": "Stihl 3005 (A074/A041)", "drive_links": 44, "climax_sku": "CLC90YP44"},
+
+    {"brand": "Stihl", "model": "MS170", "mount_family": "Stihl 3005 (A074/A041)", "drive_links": 50, "climax_sku": "CLC90YP50"},
+    {"brand": "Stihl", "model": "MS171", "mount_family": "Stihl 3005 (A074/A041)", "drive_links": 50, "climax_sku": "CLC90YP50"},
+    {"brand": "Stihl", "model": "MS180", "mount_family": "Stihl 3005 (A074/A041)", "drive_links": 50, "climax_sku": "CLC90YP50"},
+    {"brand": "Stihl", "model": "MS181", "mount_family": "Stihl 3005 (A074/A041)", "drive_links": 50, "climax_sku": "CLC90YP50"},
+    {"brand": "Stihl", "model": "MS182", "mount_family": "Stihl 3005 (A074/A041)", "drive_links": 50, "climax_sku": "CLC90YP50"},
+    {"brand": "Stihl", "model": "MS211", "mount_family": "Stihl 3005 (A074/A041)", "drive_links": 50, "climax_sku": "CLC90YP50"},
+
+    {"brand": "Stihl", "model": "MSE140", "mount_family": "Stihl 3005 (A074/A041)", "drive_links": 44, "climax_sku": "CLC90YP44"},
+    {"brand": "Stihl", "model": "MSE170", "mount_family": "Stihl 3005 (A074/A041)", "drive_links": 44, "climax_sku": "CLC90YP44"},
+    {"brand": "Stihl", "model": "MSE180", "mount_family": "Stihl 3005 (A074/A041)", "drive_links": 50, "climax_sku": "CLC90YP50"},
+
+    {"brand": "Stihl", "model": "HT70", "mount_family": "Stihl 3005 (A074/A041)", "drive_links": 44, "climax_sku": "CLC90YP44"},
+    {"brand": "Stihl", "model": "HT75", "mount_family": "Stihl 3005 (A074/A041)", "drive_links": 44, "climax_sku": "CLC90YP44"},
+    {"brand": "Stihl", "model": "HT100", "mount_family": "Stihl 3005 (A074/A041)", "drive_links": 44, "climax_sku": "CLC90YP44"},
+    {"brand": "Stihl", "model": "HT101", "mount_family": "Stihl 3005 (A074/A041)", "drive_links": 44, "climax_sku": "CLC90YP44"},
 
     /* =========================
-       ECHO (Common small-saw configs)
+       HUSQVARNA
        ========================= */
-    { "brand": "Echo", "model": "CS-2511TES", "mount_family": null, "drive_links": 44 },
-    { "brand": "Echo", "model": "CS-2511WES", "mount_family": null, "drive_links": 44 },
-    { "brand": "Echo", "model": "CS-271TES", "mount_family": null, "drive_links": 44 },
-    { "brand": "Echo", "model": "CS-280TES", "mount_family": null, "drive_links": 44 },
-    { "brand": "Echo", "model": "CS-303T", "mount_family": null, "drive_links": 44 },
-    { "brand": "Echo", "model": "CS-310ES", "mount_family": null, "drive_links": 50 },
-    { "brand": "Echo", "model": "CS-3510ES", "mount_family": null, "drive_links": 50 },
-    { "brand": "Echo", "model": "CS-352ES", "mount_family": null, "drive_links": 50 },
-    { "brand": "Echo", "model": "CS-361WES", "mount_family": null, "drive_links": 50 },
-    { "brand": "Echo", "model": "CS-362TES", "mount_family": null, "drive_links": 50 },
-    { "brand": "Echo", "model": "CS-370ES", "mount_family": null, "drive_links": 50 },
-    { "brand": "Echo", "model": "CS-390ESX", "mount_family": null, "drive_links": 56 },
+
+    {"brand": "Husqvarna", "model": "120 Mark II", "mount_family": "K095/Z095", "drive_links": 44, "climax_sku": "CLC90YP44"},
+    {"brand": "Husqvarna", "model": "120i", "mount_family": "K095/Z095", "drive_links": 44, "climax_sku": "CLC90YP44"},
+
+    {"brand": "Husqvarna", "model": "135 Mark II (light bar setup)", "mount_family": "K095/Z095", "drive_links": 50, "climax_sku": "CLC90YP50"},
 
     /* =========================
-       MAKITA / DOLMAR (Petrol + Battery)
+       BATTERY / ELECTRIC
        ========================= */
-    { "brand": "Makita", "model": "EA3200S", "mount_family": null, "drive_links": 50 },
-    { "brand": "Makita", "model": "EA3500S", "mount_family": null, "drive_links": 50 },
-    { "brand": "Makita", "model": "EA3600F", "mount_family": null, "drive_links": 56 },
-    { "brand": "Makita", "model": "EA4300F", "mount_family": null, "drive_links": 56 },
 
-    { "brand": "Makita", "model": "DUC122", "mount_family": null, "drive_links": 44 },
-    { "brand": "Makita", "model": "DUC254", "mount_family": null, "drive_links": 44 },
-    { "brand": "Makita", "model": "DUC302", "mount_family": null, "drive_links": 50 },
-    { "brand": "Makita", "model": "DUC353", "mount_family": null, "drive_links": 52 },
-    { "brand": "Makita", "model": "DUC355", "mount_family": null, "drive_links": 52 },
-    { "brand": "Makita", "model": "DUC400", "mount_family": null, "drive_links": 52 },
+    {"brand": "Makita", "model": "DUC254", "mount_family": null, "drive_links": 44, "climax_sku": "CLC90YP44"},
+    {"brand": "Makita", "model": "DUC302 (short bar)", "mount_family": null, "drive_links": 50, "climax_sku": "CLC90YP50"},
 
-    { "brand": "Dolmar", "model": "PS32C", "mount_family": null, "drive_links": 50 },
-    { "brand": "Dolmar", "model": "PS35C", "mount_family": null, "drive_links": 50 },
-    { "brand": "Dolmar", "model": "PS420", "mount_family": null, "drive_links": 56 },
+    {"brand": "DeWalt", "model": "DCCS620", "mount_family": null, "drive_links": 44, "climax_sku": "CLC90YP44"},
+
+    {"brand": "EGO", "model": "CS1400 (light setup)", "mount_family": null, "drive_links": 50, "climax_sku": "CLC90YP50"},
+
+    {"brand": "Ryobi", "model": "RY40500", "mount_family": null, "drive_links": 50, "climax_sku": "CLC90YP50"},
 
     /* =========================
-       DEWALT / MILWAUKEE / EGO (Battery pro/DIY)
+       GENERIC (IMPORTANT FOR COVERAGE)
        ========================= */
-    { "brand": "DeWalt", "model": "DCCS620", "mount_family": null, "drive_links": 44 },
-    { "brand": "DeWalt", "model": "DCCS670", "mount_family": null, "drive_links": 56 },
-    { "brand": "DeWalt", "model": "DCCS690", "mount_family": null, "drive_links": 56 },
 
-    { "brand": "Milwaukee", "model": "M18 FCHS", "mount_family": null, "drive_links": 50 },
-    { "brand": "Milwaukee", "model": "M18 FCHSC", "mount_family": null, "drive_links": 50 },
-
-    { "brand": "EGO", "model": "CS1400", "mount_family": null, "drive_links": 52 },
-    { "brand": "EGO", "model": "CS1410", "mount_family": null, "drive_links": 52 },
-    { "brand": "EGO", "model": "CS1600", "mount_family": null, "drive_links": 56 },
-    { "brand": "EGO", "model": "CS1610", "mount_family": null, "drive_links": 56 },
-    { "brand": "EGO", "model": "CS1800", "mount_family": null, "drive_links": 56 },
-    { "brand": "EGO", "model": "CS1804", "mount_family": null, "drive_links": 56 },
-
-    /* =========================
-       RYOBI / GREENWORKS (Battery/DIY)
-       ========================= */
-    { "brand": "Ryobi", "model": "RY3716", "mount_family": null, "drive_links": 56 },
-    { "brand": "Ryobi", "model": "RY40500", "mount_family": null, "drive_links": 52 },
-    { "brand": "Ryobi", "model": "RY40510", "mount_family": null, "drive_links": 52 },
-    { "brand": "Ryobi", "model": "RY40530", "mount_family": null, "drive_links": 56 },
-
-    { "brand": "Greenworks", "model": "20152", "mount_family": null, "drive_links": 56 },
-    { "brand": "Greenworks", "model": "20312", "mount_family": null, "drive_links": 50 },
-    { "brand": "Greenworks", "model": "20322", "mount_family": null, "drive_links": 50 },
-    { "brand": "Greenworks", "model": "CSF3016", "mount_family": null, "drive_links": 56 },
-
-    /* =========================
-       EFCO / OLEO-MAC (Consumer petrol + electric)
-       ========================= */
-    { "brand": "Efco", "model": "MT3500", "mount_family": null, "drive_links": 50 },
-    { "brand": "Efco", "model": "MT3710", "mount_family": null, "drive_links": 50 },
-    { "brand": "Efco", "model": "EF15E", "mount_family": null, "drive_links": 44 },
-
-    { "brand": "Oleo-Mac", "model": "GS350", "mount_family": null, "drive_links": 50 },
-    { "brand": "Oleo-Mac", "model": "GS371", "mount_family": null, "drive_links": 50 },
-    { "brand": "Oleo-Mac", "model": "OM15E", "mount_family": null, "drive_links": 44 },
-
-    /* =========================
-       ALPINA / MOUNTFIELD / PARTNER / MCCULLOCH
-       ========================= */
-    { "brand": "Alpina", "model": "ACS38", "mount_family": null, "drive_links": 50 },
-    { "brand": "Alpina", "model": "ACS41", "mount_family": null, "drive_links": 50 },
-    { "brand": "Mountfield", "model": "MC3520", "mount_family": null, "drive_links": 50 },
-
-    { "brand": "McCulloch", "model": "CS35", "mount_family": null, "drive_links": 50 },
-    { "brand": "McCulloch", "model": "CS380", "mount_family": null, "drive_links": 50 },
-    { "brand": "Partner", "model": "P340S", "mount_family": null, "drive_links": 50 },
-    { "brand": "Partner", "model": "P350S", "mount_family": null, "drive_links": 50 },
-
-    /* =========================
-       POULAN / CRAFTSMAN (US/DIY common configs)
-       ========================= */
-    { "brand": "Poulan", "model": "PL3816", "mount_family": null, "drive_links": 56 },
-    { "brand": "Poulan", "model": "PR4016", "mount_family": null, "drive_links": 56 },
-    { "brand": "Craftsman", "model": "CMCCS620", "mount_family": null, "drive_links": 50 },
-    { "brand": "Craftsman", "model": "S1600", "mount_family": null, "drive_links": 56 }
+    {"brand": "Generic", "model": "Any saw using 3/8 LP .043 44DL", "mount_family": null, "drive_links": 44, "climax_sku": "CLC90YP44"},
+    {"brand": "Generic", "model": "Any saw using 3/8 LP .043 50DL", "mount_family": null, "drive_links": 50, "climax_sku": "CLC90YP50"}
   ]
 }
