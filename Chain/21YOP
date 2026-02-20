@@ -4,7 +4,7 @@
   "spec": {
     "pitch": "0.325",
     "gauge": "1.5mm / .058",
-    "type": "pro / semi-chisel (varies by cutter/chisel profile)"
+    "type": "Full Chisel"
   },
   "drive_link_counts_supported": [64, 72, 78, 80],
   "products": [
