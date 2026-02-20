@@ -1,0 +1,51 @@
+{
+  "chain_family": "Climax 40OP",
+  "oregon_equivalent_family": "Oregon 25AP / 24AP (1/4, .043)",
+  "spec": {
+    "pitch": "1/4",
+    "gauge": "1.1mm / .043",
+    "type": "pruning / carving / arborist"
+  },
+  "drive_link_counts_supported": [64, 72],
+  "products": [
+    { "climax_sku": "CLC40OP64", "drive_links": 64 },
+    { "climax_sku": "CLC40OP72", "drive_links": 72 }
+  ],
+  "mount_notes": {
+    "note": "1/4 .043 is a specialist pruning setup. Primarily used on arborist top-handle saws and pole pruners. Always verify bar stamp: 1/4 pitch + .043 gauge + drive links."
+  },
+  "fits_with_models_full_json": [
+
+    /* =========================
+       STIHL (VERIFIED)
+       ========================= */
+
+    { "brand": "Stihl", "model": "MS150", "mount_family": null, "drive_links": 64, "climax_sku": "CLC40OP64" },
+    { "brand": "Stihl", "model": "MS150T", "mount_family": null, "drive_links": 64, "climax_sku": "CLC40OP64" },
+
+    { "brand": "Stihl", "model": "HT 70 Pole Pruner", "mount_family": null, "drive_links": 64, "climax_sku": "CLC40OP64" },
+    { "brand": "Stihl", "model": "HT 100 Pole Pruner", "mount_family": null, "drive_links": 64, "climax_sku": "CLC40OP64" },
+    { "brand": "Stihl", "model": "HT 101 Pole Pruner", "mount_family": null, "drive_links": 64, "climax_sku": "CLC40OP64" },
+    { "brand": "Stihl", "model": "HT 130 Pole Pruner", "mount_family": null, "drive_links": 72, "climax_sku": "CLC40OP72" },
+    { "brand": "Stihl", "model": "HT 131 Pole Pruner", "mount_family": null, "drive_links": 72, "climax_sku": "CLC40OP72" },
+
+    /* =========================
+       ECHO (VERIFIED CORE)
+       ========================= */
+
+    { "brand": "Echo", "model": "CS-2511TES", "mount_family": null, "drive_links": 64, "climax_sku": "CLC40OP64" },
+    { "brand": "Echo", "model": "CS-2511TESC", "mount_family": null, "drive_links": 64, "climax_sku": "CLC40OP64" },
+    { "brand": "Echo", "model": "CS-2511WES", "mount_family": null, "drive_links": 64, "climax_sku": "CLC40OP64" },
+    { "brand": "Echo", "model": "CS-2511WESC", "mount_family": null, "drive_links": 64, "climax_sku": "CLC40OP64" },
+
+    { "brand": "Echo", "model": "CS-280TES", "mount_family": null, "drive_links": 64, "climax_sku": "CLC40OP64" },
+    { "brand": "Echo", "model": "DCS-2500T", "mount_family": null, "drive_links": 64, "climax_sku": "CLC40OP64" },
+
+    /* =========================
+       GENERIC (CRITICAL COVERAGE)
+       ========================= */
+
+    { "brand": "Generic", "model": "Any saw using 1/4 pitch + .043 gauge + 64DL", "mount_family": null, "drive_links": 64, "climax_sku": "CLC40OP64" },
+    { "brand": "Generic", "model": "Any saw using 1/4 pitch + .043 gauge + 72DL", "mount_family": null, "drive_links": 72, "climax_sku": "CLC40OP72" }
+  ]
+}
