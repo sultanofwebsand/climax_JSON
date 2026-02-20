@@ -1,0 +1,63 @@
+{
+  "bar_mount": "K095",
+  "mount_notes": {
+    "oregon_mount": "K095",
+    "note": "Compatibility assumes the saw is configured for the bar's pitch/gauge (e.g., correct sprocket/rim and chain type)."
+  },
+  "climax_bars": [
+    {"sku": "CLB15136432", "bar_length_label": "15\"", "pitch": "0.325", "gauge": "1.3mm / 0.050", "drive_links": 64},
+    {"sku": "CLB15165638", "bar_length_label": "15\"", "pitch": "3/8", "gauge": "1.6mm / 0.063", "drive_links": 56},
+    {"sku": "CLB18137232", "bar_length_label": "18\"", "pitch": "0.325", "gauge": "1.3mm / 0.050", "drive_links": 72},
+    {"sku": "CLB18157232", "bar_length_label": "18\"", "pitch": "0.325", "gauge": "1.5mm / 0.058", "drive_links": 72},
+    {"sku": "CLB20158032", "bar_length_label": "20\"", "pitch": "0.325", "gauge": "1.5mm / 0.058", "drive_links": 80}
+  ],
+  "fits_with_models_full_json": [
+    {"brand": "Alpina", "model": "600"},
+    {"brand": "Alpina", "model": "600i"},
+    {"brand": "Alpina", "model": "P650"},
+    {"brand": "Alpina", "model": "PRO55"},
+    {"brand": "Alpina", "model": "PRO56"},
+    {"brand": "Alpina", "model": "PROF65"},
+    {"brand": "Alpina", "model": "PROF66"},
+
+    {"brand": "Castel Garden", "model": "CS60"},
+
+    {"brand": "Husqvarna", "model": "51"},
+    {"brand": "Husqvarna", "model": "55"},
+    {"brand": "Husqvarna", "model": "154"},
+    {"brand": "Husqvarna", "model": "254"},
+    {"brand": "Husqvarna", "model": "254XP"},
+    {"brand": "Husqvarna", "model": "257"},
+    {"brand": "Husqvarna", "model": "261"},
+    {"brand": "Husqvarna", "model": "262XP"},
+    {"brand": "Husqvarna", "model": "357XP"},
+    {"brand": "Husqvarna", "model": "359"},
+    {"brand": "Husqvarna", "model": "362XP"},
+    {"brand": "Husqvarna", "model": "455 Rancher"},
+    {"brand": "Husqvarna", "model": "455 Rancher II"},
+    {"brand": "Husqvarna", "model": "455e Rancher"},
+    {"brand": "Husqvarna", "model": "455e Rancher II"},
+    {"brand": "Husqvarna", "model": "555"},
+    {"brand": "Husqvarna", "model": "560XP"},
+    {"brand": "Husqvarna", "model": "560XP II"},
+    {"brand": "Husqvarna", "model": "560XPG"},
+    {"brand": "Husqvarna", "model": "560XPG II"},
+
+    {"brand": "Jonsered", "model": "2156"},
+    {"brand": "Jonsered", "model": "2159"},
+    {"brand": "Jonsered", "model": "2163"},
+    {"brand": "Jonsered", "model": "2260"},
+
+    {"brand": "Oleo Mac", "model": "956"},
+    {"brand": "Oleo Mac", "model": "962"},
+
+    {"brand": "Partner", "model": "550"},
+    {"brand": "Partner", "model": "605"},
+    {"brand": "Partner", "model": "1200"},
+    {"brand": "Partner", "model": "1400"},
+    {"brand": "Partner", "model": "1450"},
+    {"brand": "Partner", "model": "MT51"},
+    {"brand": "Partner", "model": "MT56"},
+    {"brand": "Partner", "model": "MT62"}
+  ]
+}
