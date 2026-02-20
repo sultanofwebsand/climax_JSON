@@ -1,0 +1,82 @@
+{
+  "chain_family": "Climax 40ETP",
+  "oregon_equivalent_family": "Oregon 1/4 Micro, .043 (25AP / 24AP family)",
+  "spec": {
+    "pitch": "1/4 Micro",
+    "gauge": "1.1mm / .043",
+    "type": "micro / pruning / compact saws"
+  },
+  "drive_link_counts_supported": [52, 60, 68, 72],
+  "products": [
+    { "climax_sku": "CLC40ETP52", "drive_links": 52 },
+    { "climax_sku": "CLC40ETP60", "drive_links": 60 },
+    { "climax_sku": "CLC40ETP68", "drive_links": 68 },
+    { "climax_sku": "CLC40ETP72", "drive_links": 72 }
+  ],
+  "mount_notes": {
+    "note": "40ETP is a 1/4 Micro pitch, .043 (1.1mm) system used on compact pruning and arborist saws. Fitment is bar-driven: confirm 1/4 Micro pitch + .043 gauge + exact drive link count. 72DL setups are typically non-OEM and require a compatible A074 (Stihl small mount) bar such as CLB14117214."
+  },
+  "fits_with_models_full_json": [
+
+    /* =========================
+       STIHL (OEM / COMMON SETUPS)
+       ========================= */
+
+    { "brand": "Stihl", "model": "MS150", "mount_family": null, "drive_links": 52, "climax_sku": "CLC40ETP52" },
+    { "brand": "Stihl", "model": "MS150T", "mount_family": null, "drive_links": 52, "climax_sku": "CLC40ETP52" },
+
+    { "brand": "Stihl", "model": "MS151", "mount_family": null, "drive_links": 60, "climax_sku": "CLC40ETP60" },
+    { "brand": "Stihl", "model": "MS151T", "mount_family": null, "drive_links": 60, "climax_sku": "CLC40ETP60" },
+
+    { "brand": "Stihl", "model": "MS151", "mount_family": null, "drive_links": 68, "climax_sku": "CLC40ETP68" },
+
+    /* =========================
+       STIHL BATTERY (COMMON)
+       ========================= */
+
+    { "brand": "Stihl", "model": "MSA 161 T", "mount_family": null, "drive_links": 60, "climax_sku": "CLC40ETP60" },
+    { "brand": "Stihl", "model": "MSA 161 T", "mount_family": null, "drive_links": 68, "climax_sku": "CLC40ETP68" },
+
+    { "brand": "Stihl", "model": "MSA 200", "mount_family": null, "drive_links": 60, "climax_sku": "CLC40ETP60" },
+    { "brand": "Stihl", "model": "MSA 200", "mount_family": null, "drive_links": 68, "climax_sku": "CLC40ETP68" },
+
+    /* =========================
+       ECHO (ARBO / TOP HANDLE — CORE COVERAGE)
+       ========================= */
+
+    { "brand": "Echo", "model": "CS-2511TES", "mount_family": null, "drive_links": 60, "climax_sku": "CLC40ETP60" },
+    { "brand": "Echo", "model": "CS-2511TES", "mount_family": null, "drive_links": 68, "climax_sku": "CLC40ETP68" },
+
+    { "brand": "Echo", "model": "CS-2511TESC", "mount_family": null, "drive_links": 60, "climax_sku": "CLC40ETP60" },
+    { "brand": "Echo", "model": "CS-2511TESC", "mount_family": null, "drive_links": 68, "climax_sku": "CLC40ETP68" },
+
+    { "brand": "Echo", "model": "DCS-2500T", "mount_family": null, "drive_links": 60, "climax_sku": "CLC40ETP60" },
+    { "brand": "Echo", "model": "DCS-2500T", "mount_family": null, "drive_links": 68, "climax_sku": "CLC40ETP68" },
+
+    /* =========================
+       72DL — CONVERSION (A074 BAR REQUIRED)
+       ========================= */
+
+    { "brand": "Stihl", "model": "MS170 (1/4 Micro conversion, A074 bar)", "mount_family": "Stihl A074", "drive_links": 72, "climax_sku": "CLC40ETP72" },
+    { "brand": "Stihl", "model": "MS171 (1/4 Micro conversion, A074 bar)", "mount_family": "Stihl A074", "drive_links": 72, "climax_sku": "CLC40ETP72" },
+    { "brand": "Stihl", "model": "MS180 (1/4 Micro conversion, A074 bar)", "mount_family": "Stihl A074", "drive_links": 72, "climax_sku": "CLC40ETP72" },
+    { "brand": "Stihl", "model": "MS181 (1/4 Micro conversion, A074 bar)", "mount_family": "Stihl A074", "drive_links": 72, "climax_sku": "CLC40ETP72" },
+
+    { "brand": "Stihl", "model": "MS211 (1/4 Micro conversion, A074 bar)", "mount_family": "Stihl A074", "drive_links": 72, "climax_sku": "CLC40ETP72" },
+    { "brand": "Stihl", "model": "MS231 (1/4 Micro conversion, A074 bar)", "mount_family": "Stihl A074", "drive_links": 72, "climax_sku": "CLC40ETP72" },
+    { "brand": "Stihl", "model": "MS241 (1/4 Micro conversion, A074 bar)", "mount_family": "Stihl A074", "drive_links": 72, "climax_sku": "CLC40ETP72" },
+    { "brand": "Stihl", "model": "MS251 (1/4 Micro conversion, A074 bar)", "mount_family": "Stihl A074", "drive_links": 72, "climax_sku": "CLC40ETP72" },
+
+    { "brand": "Stihl", "model": "MSA 161 T (extended 14\" setup, A074 bar)", "mount_family": "Stihl A074", "drive_links": 72, "climax_sku": "CLC40ETP72" },
+    { "brand": "Stihl", "model": "MSA 200 (extended 14\" setup, A074 bar)", "mount_family": "Stihl A074", "drive_links": 72, "climax_sku": "CLC40ETP72" },
+
+    /* =========================
+       GENERIC (CRITICAL COVERAGE)
+       ========================= */
+
+    { "brand": "Generic", "model": "Any saw using 1/4 Micro pitch + .043 gauge + 52DL", "mount_family": null, "drive_links": 52, "climax_sku": "CLC40ETP52" },
+    { "brand": "Generic", "model": "Any saw using 1/4 Micro pitch + .043 gauge + 60DL", "mount_family": null, "drive_links": 60, "climax_sku": "CLC40ETP60" },
+    { "brand": "Generic", "model": "Any saw using 1/4 Micro pitch + .043 gauge + 68DL", "mount_family": null, "drive_links": 68, "climax_sku": "CLC40ETP68" },
+    { "brand": "Generic", "model": "Any saw using 1/4 Micro pitch + .043 gauge + 72DL", "mount_family": null, "drive_links": 72, "climax_sku": "CLC40ETP72" }
+  ]
+}
