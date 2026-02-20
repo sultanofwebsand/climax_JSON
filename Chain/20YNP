@@ -1,42 +1,74 @@
 {
   "chain_family": "Climax 20YNP",
+  "oregon_equivalent_family": "Oregon 20BPX (.325, .050)",
   "spec": {
     "pitch": "0.325",
-    "gauge": "1.3mm / .050"
+    "gauge": "1.3mm / .050",
+    "type": "Semi Chisel"
+  },
+  "drive_link_counts_supported": [56, 64, 72, 80],
+  "products": [
+    { "climax_sku": "CLC20YNP56", "drive_links": 56 },
+    { "climax_sku": "CLC20YNP64", "drive_links": 64 },
+    { "climax_sku": "CLC20YNP72", "drive_links": 72 },
+    { "climax_sku": "CLC20YNP80", "drive_links": 80 }
+  ],
+  "mount_notes": {
+    "note": "20YNP (.325, .050) is widely used across many saw brands. Fitment is bar-stamp driven: confirm .325 pitch + .050 gauge + drive link count on the bar/chain packaging. Model entries below are typical/common setups; where marked config-dependent, confirm against the bar stamp."
   },
   "fits_with_models_full_json": [
 
-    {"brand": "Husqvarna", "model": "435", "drive_links": 72, "climax_sku": "CLC20YNP72"},
-    {"brand": "Husqvarna", "model": "435e", "drive_links": 72, "climax_sku": "CLC20YNP72"},
+    /* =========================
+       HUSQVARNA (COMMON .325 .050 COVERAGE)
+       ========================= */
 
-    {"brand": "Husqvarna", "model": "440", "drive_links": 64, "climax_sku": "CLC20YNP64"},
-    {"brand": "Husqvarna", "model": "440", "drive_links": 72, "climax_sku": "CLC20YNP72"},
+    { "brand": "Husqvarna", "model": "435 (common .325 .050 setups)", "mount_family": "K095/Z095 (varies by bar)", "drive_links": 72, "climax_sku": "CLC20YNP72" },
+    { "brand": "Husqvarna", "model": "435e (common .325 .050 setups)", "mount_family": "K095/Z095 (varies by bar)", "drive_links": 72, "climax_sku": "CLC20YNP72" },
 
-    {"brand": "Husqvarna", "model": "445", "drive_links": 64, "climax_sku": "CLC20YNP64"},
-    {"brand": "Husqvarna", "model": "445", "drive_links": 72, "climax_sku": "CLC20YNP72"},
+    { "brand": "Husqvarna", "model": "440 (common .325 .050 setups)", "mount_family": "K095/Z095 (varies by bar)", "drive_links": 64, "climax_sku": "CLC20YNP64" },
+    { "brand": "Husqvarna", "model": "440 (common longer bar setups)", "mount_family": "K095/Z095 (varies by bar)", "drive_links": 72, "climax_sku": "CLC20YNP72" },
 
-    {"brand": "Husqvarna", "model": "450", "drive_links": 72, "climax_sku": "CLC20YNP72"},
+    { "brand": "Husqvarna", "model": "445 (common .325 .050 setups)", "mount_family": "K095/Z095 (varies by bar)", "drive_links": 64, "climax_sku": "CLC20YNP64" },
+    { "brand": "Husqvarna", "model": "445 (common longer bar setups)", "mount_family": "K095/Z095 (varies by bar)", "drive_links": 72, "climax_sku": "CLC20YNP72" },
 
-    {"brand": "Echo", "model": "CS-390ESX", "drive_links": 64, "climax_sku": "CLC20YNP64"},
-    {"brand": "Echo", "model": "CS-390ESX", "drive_links": 72, "climax_sku": "CLC20YNP72"},
+    { "brand": "Husqvarna", "model": "450 (common .325 .050 setups)", "mount_family": "K095/Z095 (varies by bar)", "drive_links": 72, "climax_sku": "CLC20YNP72" },
 
-    {"brand": "Echo", "model": "CS-4510ES", "drive_links": 72, "climax_sku": "CLC20YNP72"},
-    {"brand": "Echo", "model": "CS-4510ES", "drive_links": 80, "climax_sku": "CLC20YNP80"},
+    { "brand": "Husqvarna", "model": "135 Mark II (config-dependent .325 setup)", "mount_family": "K095/Z095 (varies by bar)", "drive_links": 64, "climax_sku": "CLC20YNP64" },
+    { "brand": "Husqvarna", "model": "135 Mark II (config-dependent longer bar)", "mount_family": "K095/Z095 (varies by bar)", "drive_links": 72, "climax_sku": "CLC20YNP72" },
 
-    {"brand": "Makita", "model": "EA4300F", "drive_links": 64, "climax_sku": "CLC20YNP64"},
-    {"brand": "Makita", "model": "EA4300F", "drive_links": 72, "climax_sku": "CLC20YNP72"},
+    /* =========================
+       ECHO (HIGH PRIORITY — CONFIG-DEPENDENT)
+       ========================= */
 
-    {"brand": "Makita", "model": "EA5000P", "drive_links": 80, "climax_sku": "CLC20YNP80"},
+    { "brand": "Echo", "model": "CS-390ESX (common .325 .050 setups)", "mount_family": null, "drive_links": 64, "climax_sku": "CLC20YNP64" },
+    { "brand": "Echo", "model": "CS-390ESX (common longer bar setups)", "mount_family": null, "drive_links": 72, "climax_sku": "CLC20YNP72" },
 
-    {"brand": "Dolmar", "model": "PS-420", "drive_links": 64, "climax_sku": "CLC20YNP64"},
-    {"brand": "Dolmar", "model": "PS-420", "drive_links": 72, "climax_sku": "CLC20YNP72"},
+    { "brand": "Echo", "model": "CS-3510ES (config-dependent .325 .050 setup)", "mount_family": null, "drive_links": 64, "climax_sku": "CLC20YNP64" },
+    { "brand": "Echo", "model": "CS-370ES (config-dependent .325 .050 setup)", "mount_family": null, "drive_links": 72, "climax_sku": "CLC20YNP72" },
 
-    {"brand": "Poulan", "model": "PR4218", "drive_links": 72, "climax_sku": "CLC20YNP72"},
-    {"brand": "Poulan", "model": "PR4218", "drive_links": 80, "climax_sku": "CLC20YNP80"},
+    { "brand": "Echo", "model": "CS-4510ES (config-dependent .325 .050 setup)", "mount_family": null, "drive_links": 72, "climax_sku": "CLC20YNP72" },
+    { "brand": "Echo", "model": "CS-4510ES (config-dependent longer bar)", "mount_family": null, "drive_links": 80, "climax_sku": "CLC20YNP80" },
 
-    {"brand": "Generic", "model": "Any .325 .050 56DL setup", "drive_links": 56, "climax_sku": "CLC20YNP56"},
-    {"brand": "Generic", "model": "Any .325 .050 64DL setup", "drive_links": 64, "climax_sku": "CLC20YNP64"},
-    {"brand": "Generic", "model": "Any .325 .050 72DL setup", "drive_links": 72, "climax_sku": "CLC20YNP72"},
-    {"brand": "Generic", "model": "Any .325 .050 80DL setup", "drive_links": 80, "climax_sku": "CLC20YNP80"}
+    /* =========================
+       MAKITA / DOLMAR (CONFIG-DEPENDENT)
+       ========================= */
+
+    { "brand": "Makita", "model": "EA4300F (common .325 .050 setups)", "mount_family": null, "drive_links": 64, "climax_sku": "CLC20YNP64" },
+    { "brand": "Makita", "model": "EA4300F (common longer bar setups)", "mount_family": null, "drive_links": 72, "climax_sku": "CLC20YNP72" },
+
+    { "brand": "Dolmar", "model": "PS-420 (config-dependent .325 .050 setup)", "mount_family": null, "drive_links": 64, "climax_sku": "CLC20YNP64" },
+    { "brand": "Dolmar", "model": "PS-420 (config-dependent longer bar)", "mount_family": null, "drive_links": 72, "climax_sku": "CLC20YNP72" },
+
+    {"brand": "Poulan", "model": "PR4218", "mount_family": null, "drive_links": 72, "climax_sku": "CLC20YNP72"},
+    {"brand": "Poulan", "model": "PR4218", "mount_family": null, "drive_links": 80, "climax_sku": "CLC20YNP80"},
+
+    /* =========================
+       GENERIC (CRITICAL COVERAGE)
+       ========================= */
+
+    { "brand": "Generic", "model": "Any saw using .325 pitch + .050 gauge + 56DL", "mount_family": null, "drive_links": 56, "climax_sku": "CLC20YNP56" },
+    { "brand": "Generic", "model": "Any saw using .325 pitch + .050 gauge + 64DL", "mount_family": null, "drive_links": 64, "climax_sku": "CLC20YNP64" },
+    { "brand": "Generic", "model": "Any saw using .325 pitch + .050 gauge + 72DL", "mount_family": null, "drive_links": 72, "climax_sku": "CLC20YNP72" },
+    { "brand": "Generic", "model": "Any saw using .325 pitch + .050 gauge + 80DL", "mount_family": null, "drive_links": 80, "climax_sku": "CLC20YNP80" }
   ]
 }
