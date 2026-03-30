@@ -1,6 +1,8 @@
 {
   "chain_family": "Climax 91NP",
   "oregon_equivalent_family": "Oregon 91PX",
+  "husqvarna_equivalent_family": "Husqvarna X-Cut S93G",
+  "husqvarna_equivalent_part": "585404252",
   "spec": {
     "pitch": "3/8 LP",
     "gauge": "1.3mm / .050",
@@ -61,6 +63,35 @@
     { "brand": "Husqvarna", "model": "135 Mark II", "mount_family": "K095/Z095", "drive_links": 50, "climax_sku": "CLC91NP50" },
     { "brand": "Husqvarna", "model": "236", "mount_family": "K095/Z095", "drive_links": 50, "climax_sku": "CLC91NP50" },
     { "brand": "Husqvarna", "model": "240", "mount_family": "K095/Z095", "drive_links": 50, "climax_sku": "CLC91NP50" },
+
+    { "brand": "Husqvarna", "model": "120 Mark II", "mount_family": "K095/Z095", "drive_links": 52, "climax_sku": "CLC91NP52" },
+{ "brand": "Husqvarna", "model": "130", "mount_family": "K095/Z095", "drive_links": 52, "climax_sku": "CLC91NP52" },
+{ "brand": "Husqvarna", "model": "135 Mark II", "mount_family": "K095/Z095", "drive_links": 52, "climax_sku": "CLC91NP52" },
+{ "brand": "Husqvarna", "model": "135E", "mount_family": "K095/Z095", "drive_links": 52, "climax_sku": "CLC91NP52" },
+{ "brand": "Husqvarna", "model": "136", "mount_family": "K095/Z095", "drive_links": 52, "climax_sku": "CLC91NP52" },
+{ "brand": "Husqvarna", "model": "140", "mount_family": "K095/Z095", "drive_links": 52, "climax_sku": "CLC91NP52" },
+{ "brand": "Husqvarna", "model": "141", "mount_family": "K095/Z095", "drive_links": 52, "climax_sku": "CLC91NP52" },
+
+{ "brand": "Husqvarna", "model": "235", "mount_family": "K095/Z095", "drive_links": 52, "climax_sku": "CLC91NP52" },
+{ "brand": "Husqvarna", "model": "235E", "mount_family": "K095/Z095", "drive_links": 52, "climax_sku": "CLC91NP52" },
+{ "brand": "Husqvarna", "model": "236", "mount_family": "K095/Z095", "drive_links": 52, "climax_sku": "CLC91NP52" },
+{ "brand": "Husqvarna", "model": "236E", "mount_family": "K095/Z095", "drive_links": 52, "climax_sku": "CLC91NP52" },
+{ "brand": "Husqvarna", "model": "240", "mount_family": "K095/Z095", "drive_links": 52, "climax_sku": "CLC91NP52" },
+{ "brand": "Husqvarna", "model": "240E", "mount_family": "K095/Z095", "drive_links": 52, "climax_sku": "CLC91NP52" },
+
+{ "brand": "Husqvarna", "model": "T435", "mount_family": "K095/Z095", "drive_links": 52, "climax_sku": "CLC91NP52" },
+{ "brand": "Husqvarna", "model": "T540XP", "mount_family": "K095/Z095", "drive_links": 52, "climax_sku": "CLC91NP52" },
+{ "brand": "Husqvarna", "model": "T540XP Mark II", "mount_family": "K095/Z095", "drive_links": 52, "climax_sku": "CLC91NP52" },
+{ "brand": "Husqvarna", "model": "335XPT", "mount_family": "K095/Z095", "drive_links": 52, "climax_sku": "CLC91NP52" },
+{ "brand": "Husqvarna", "model": "338XPT", "mount_family": "K095/Z095", "drive_links": 52, "climax_sku": "CLC91NP52" },
+
+{ "brand": "Husqvarna", "model": "340i", "mount_family": "K095/Z095", "drive_links": 52, "climax_sku": "CLC91NP52" },
+{ "brand": "Husqvarna", "model": "420EL", "mount_family": "K095/Z095", "drive_links": 52, "climax_sku": "CLC91NP52" },
+
+{ "brand": "Husqvarna", "model": "315", "mount_family": "K095/Z095", "drive_links": 52, "climax_sku": "CLC91NP52" },
+{ "brand": "Husqvarna", "model": "316", "mount_family": "K095/Z095", "drive_links": 52, "climax_sku": "CLC91NP52" },
+{ "brand": "Husqvarna", "model": "321", "mount_family": "K095/Z095", "drive_links": 52, "climax_sku": "CLC91NP52" },
+{ "brand": "Husqvarna", "model": "321EL", "mount_family": "K095/Z095", "drive_links": 52, "climax_sku": "CLC91NP52" },
 
     { "brand": "Husqvarna", "model": "240", "mount_family": "K095/Z095", "drive_links": 56, "climax_sku": "CLC91NP56" },
     { "brand": "Husqvarna", "model": "435", "mount_family": "K095/Z095", "drive_links": 56, "climax_sku": "CLC91NP56" },
