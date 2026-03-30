@@ -14,10 +14,6 @@
   },
   "fits_with_models_full_json": [
 
-    /* =========================
-       STIHL (SMALL MOUNT)
-       ========================= */
-
     {"brand": "Stihl", "model": "MS162", "mount_family": "Stihl 3005 (A074/A041)", "drive_links": 44, "climax_sku": "CLC90YP44"},
     {"brand": "Stihl", "model": "MS170", "mount_family": "Stihl 3005 (A074/A041)", "drive_links": 44, "climax_sku": "CLC90YP44"},
     {"brand": "Stihl", "model": "MS171", "mount_family": "Stihl 3005 (A074/A041)", "drive_links": 44, "climax_sku": "CLC90YP44"},
@@ -46,18 +42,10 @@
     {"brand": "Stihl", "model": "HT100", "mount_family": "Stihl 3005 (A074/A041)", "drive_links": 44, "climax_sku": "CLC90YP44"},
     {"brand": "Stihl", "model": "HT101", "mount_family": "Stihl 3005 (A074/A041)", "drive_links": 44, "climax_sku": "CLC90YP44"},
 
-    /* =========================
-       HUSQVARNA
-       ========================= */
-
     {"brand": "Husqvarna", "model": "120 Mark II", "mount_family": "K095/Z095", "drive_links": 44, "climax_sku": "CLC90YP44"},
     {"brand": "Husqvarna", "model": "120i", "mount_family": "K095/Z095", "drive_links": 44, "climax_sku": "CLC90YP44"},
 
     {"brand": "Husqvarna", "model": "135 Mark II (light bar setup)", "mount_family": "K095/Z095", "drive_links": 50, "climax_sku": "CLC90YP50"},
-
-    /* =========================
-       BATTERY / ELECTRIC
-       ========================= */
 
     {"brand": "Makita", "model": "DUC254", "mount_family": null, "drive_links": 44, "climax_sku": "CLC90YP44"},
     {"brand": "Makita", "model": "DUC302 (short bar)", "mount_family": null, "drive_links": 50, "climax_sku": "CLC90YP50"},
@@ -67,10 +55,6 @@
     {"brand": "EGO", "model": "CS1400 (light setup)", "mount_family": null, "drive_links": 50, "climax_sku": "CLC90YP50"},
 
     {"brand": "Ryobi", "model": "RY40500", "mount_family": null, "drive_links": 50, "climax_sku": "CLC90YP50"},
-
-    /* =========================
-       GENERIC (IMPORTANT FOR COVERAGE)
-       ========================= */
 
     {"brand": "Generic", "model": "Any saw using 3/8 LP .043 44DL", "mount_family": null, "drive_links": 44, "climax_sku": "CLC90YP44"},
     {"brand": "Generic", "model": "Any saw using 3/8 LP .043 50DL", "mount_family": null, "drive_links": 50, "climax_sku": "CLC90YP50"}

@@ -21,10 +21,6 @@
   },
   "fits_with_models_full_json": [
 
-    /* =========================
-       STIHL (PRIMARY ACCURATE COVERAGE)
-       ========================= */
-
     { "brand": "Stihl", "model": "MS271 (common 3/8 .063 setups)", "mount_family": "Stihl 3003/D025 (varies by bar)", "drive_links": 72, "climax_sku": "CLC75LP72" },
     { "brand": "Stihl", "model": "MS291 (common 3/8 .063 setups)", "mount_family": "Stihl 3003/D025 (varies by bar)", "drive_links": 72, "climax_sku": "CLC75LP72" },
 
@@ -40,35 +36,18 @@
     { "brand": "Stihl", "model": "MS661 (long bar 3/8 .063 setups)", "mount_family": "Stihl 3003/3002 (varies by bar)", "drive_links": 114, "climax_sku": "CLC75LP114" },
     { "brand": "Stihl", "model": "MS881 (long bar 3/8 .063 setups)", "mount_family": "Stihl 3003/3002 (varies by bar)", "drive_links": 114, "climax_sku": "CLC75LP114" },
 
-    /* =========================
-       SHORT / SPECIAL STIHL SETUPS
-       (less common but seen in the wild; still bar-stamp driven)
-       ========================= */
-
     { "brand": "Stihl", "model": "MS231 (config-dependent .063 setup)", "mount_family": "Stihl 3003/D025 (varies by bar)", "drive_links": 60, "climax_sku": "CLC75LP60" },
     { "brand": "Stihl", "model": "MS251 (config-dependent .063 setup)", "mount_family": "Stihl 3003/D025 (varies by bar)", "drive_links": 60, "climax_sku": "CLC75LP60" },
 
     { "brand": "Stihl", "model": "MS261 (config-dependent .063 setup)", "mount_family": "Stihl 3003/D025 (varies by bar)", "drive_links": 66, "climax_sku": "CLC75LP66" },
     { "brand": "Stihl", "model": "MS261 (config-dependent .063 setup)", "mount_family": "Stihl 3003/D025 (varies by bar)", "drive_links": 72, "climax_sku": "CLC75LP72" },
 
-    /* =========================
-       ECHO (CONFIG-DEPENDENT — DO NOT ASSUME .063)
-       ========================= */
-
     { "brand": "Echo", "model": "CS-590 (config-dependent .063 setup)", "mount_family": null, "drive_links": 72, "climax_sku": "CLC75LP72" },
     { "brand": "Echo", "model": "CS-620P (config-dependent .063 setup)", "mount_family": null, "drive_links": 91, "climax_sku": "CLC75LP91" },
     { "brand": "Echo", "model": "CS-7310SX (config-dependent .063 setup)", "mount_family": null, "drive_links": 98, "climax_sku": "CLC75LP98" },
 
-    /* =========================
-       MAKITA / DOLMAR (CONFIG-DEPENDENT — DO NOT ASSUME .063)
-       ========================= */
-
     { "brand": "Makita", "model": "EA6100P (config-dependent .063 setup)", "mount_family": null, "drive_links": 98, "climax_sku": "CLC75LP98" },
     { "brand": "Dolmar", "model": "PS-6100 / PS-7300 (config-dependent .063 setup)", "mount_family": null, "drive_links": 98, "climax_sku": "CLC75LP98" },
-
-    /* =========================
-       GENERIC (CRITICAL COVERAGE)
-       ========================= */
 
     { "brand": "Generic", "model": "Any saw using 3/8 pitch + .063 gauge + 56DL", "mount_family": null, "drive_links": 56, "climax_sku": "CLC75LP56" },
     { "brand": "Generic", "model": "Any saw using 3/8 pitch + .063 gauge + 60DL", "mount_family": null, "drive_links": 60, "climax_sku": "CLC75LP60" },

@@ -12,9 +12,6 @@
   ],
   "fits_with_models_full_json": [
 
-    /* =========================
-       HUSQVARNA
-       ========================= */
     {"brand": "Husqvarna", "model": "120"},
     {"brand": "Husqvarna", "model": "130"},
     {"brand": "Husqvarna", "model": "135"},
@@ -42,9 +39,6 @@
     {"brand": "Husqvarna", "model": "501959252"},
     {"brand": "Husqvarna", "model": "HL-280-52"},
 
-    /* =========================
-       JONSERED
-       ========================= */
     {"brand": "Jonsered", "model": "2035"},
     {"brand": "Jonsered", "model": "2036"},
     {"brand": "Jonsered", "model": "2040"},
@@ -56,9 +50,6 @@
     {"brand": "Jonsered", "model": "CS 2234"},
     {"brand": "Jonsered", "model": "CS 2236T"},
 
-    /* =========================
-       SOLO
-       ========================= */
     {"brand": "Solo", "model": "614"},
     {"brand": "Solo", "model": "630"},
     {"brand": "Solo", "model": "633"},
@@ -68,9 +59,6 @@
     {"brand": "Solo", "model": "640"},
     {"brand": "Solo", "model": "643"},
 
-    /* =========================
-       MCCULLOCH
-       ========================= */
     {"brand": "McCulloch", "model": "EB 428"},
     {"brand": "McCulloch", "model": "MS 1434"},
     {"brand": "McCulloch", "model": "MS 1436"},
@@ -79,9 +67,6 @@
     {"brand": "McCulloch", "model": "MS 1839"},
     {"brand": "McCulloch", "model": "MS 1842AVCC"},
 
-    /* =========================
-       OTHER
-       ========================= */
     {"brand": "Power King", "model": "PK4014"},
     {"brand": "Power King", "model": "PK401418"},
     {"brand": "Red Max", "model": "GZ360"},

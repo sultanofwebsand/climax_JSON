@@ -19,10 +19,6 @@
   },
   "fits_with_models_full_json": [
 
-    /* =========================
-       STIHL (PRIMARY ACCURATE COVERAGE)
-       ========================= */
-
     { "brand": "Stihl", "model": "MS241 (common .325 .063 setups)", "mount_family": "Stihl 3003/D025 (varies by bar)", "drive_links": 62, "climax_sku": "CLC22OP62" },
 
     { "brand": "Stihl", "model": "MS261 (common .325 .063 setups)", "mount_family": "Stihl 3003/D025 (varies by bar)", "drive_links": 67, "climax_sku": "CLC22OP67" },
@@ -34,27 +30,15 @@
     { "brand": "Stihl", "model": "MS311 (config-dependent .325 .063 setup)", "mount_family": "Stihl 3003/3002 (varies by bar)", "drive_links": 81, "climax_sku": "CLC22OP81" },
     { "brand": "Stihl", "model": "MS391 (config-dependent .325 .063 setup)", "mount_family": "Stihl 3003/3002 (varies by bar)", "drive_links": 81, "climax_sku": "CLC22OP81" },
 
-    /* =========================
-       ECHO (CONFIG-DEPENDENT — DO NOT ASSUME .063)
-       ========================= */
-
     { "brand": "Echo", "model": "CS-4510ES (config-dependent .325 .063 setup)", "mount_family": null, "drive_links": 68, "climax_sku": "CLC22OP68" },
     { "brand": "Echo", "model": "CS-490ESX (config-dependent .325 .063 setup)", "mount_family": null, "drive_links": 74, "climax_sku": "CLC22OP74" },
     { "brand": "Echo", "model": "CS-501SX (config-dependent .325 .063 setup)", "mount_family": null, "drive_links": 81, "climax_sku": "CLC22OP81" },
-
-    /* =========================
-       MAKITA / DOLMAR (CONFIG-DEPENDENT — DO NOT ASSUME .063)
-       ========================= */
 
     { "brand": "Makita", "model": "EA4300F (config-dependent .325 .063 setup)", "mount_family": null, "drive_links": 68, "climax_sku": "CLC22OP68" },
     { "brand": "Makita", "model": "EA5000P (config-dependent .325 .063 setup)", "mount_family": null, "drive_links": 74, "climax_sku": "CLC22OP74" },
 
     { "brand": "Dolmar", "model": "PS-460 (config-dependent .325 .063 setup)", "mount_family": null, "drive_links": 74, "climax_sku": "CLC22OP74" },
     { "brand": "Dolmar", "model": "PS-500 (config-dependent .325 .063 setup)", "mount_family": null, "drive_links": 81, "climax_sku": "CLC22OP81" },
-
-    /* =========================
-       GENERIC (CRITICAL COVERAGE)
-       ========================= */
 
     { "brand": "Generic", "model": "Any saw using .325 pitch + .063 gauge + 62DL", "mount_family": null, "drive_links": 62, "climax_sku": "CLC22OP62" },
     { "brand": "Generic", "model": "Any saw using .325 pitch + .063 gauge + 67DL", "mount_family": null, "drive_links": 67, "climax_sku": "CLC22OP67" },

@@ -20,10 +20,6 @@
   },
   "fits_with_models_full_json": [
 
-    /* =========================
-       HUSQVARNA (PRIMARY ACCURATE COVERAGE)
-       ========================= */
-
     { "brand": "Husqvarna", "model": "555 (common 3/8 .058 setups)", "mount_family": "D009/D008 (varies by bar)", "drive_links": 84, "climax_sku": "CLC73LP84" },
     { "brand": "Husqvarna", "model": "562 XP (common 3/8 .058 setups)", "mount_family": "D009/D008 (varies by bar)", "drive_links": 84, "climax_sku": "CLC73LP84" },
     { "brand": "Husqvarna", "model": "562XP Mark II (common 3/8 .058 setups)", "mount_family": "D009/D008 (varies by bar)", "drive_links": 84, "climax_sku": "CLC73LP84" },
@@ -39,10 +35,6 @@
     { "brand": "Husqvarna", "model": "592 XP (common 3/8 .058 setups)", "mount_family": "D009/D008 (varies by bar)", "drive_links": 92, "climax_sku": "CLC73LP92" },
     { "brand": "Husqvarna", "model": "592 XP (common longer bar setups)", "mount_family": "D009/D008 (varies by bar)", "drive_links": 98, "climax_sku": "CLC73LP98" },
 
-    /* =========================
-       JONSERED (HUSQVARNA PLATFORM)
-       ========================= */
-
     { "brand": "Jonsered", "model": "CS 2260 (common 3/8 .058 setups)", "mount_family": "D009/D008 (varies by bar)", "drive_links": 84, "climax_sku": "CLC73LP84" },
     { "brand": "Jonsered", "model": "CS 2260 (common longer bar setups)", "mount_family": "D009/D008 (varies by bar)", "drive_links": 92, "climax_sku": "CLC73LP92" },
 
@@ -52,35 +44,18 @@
 { "brand": "Jonsered", "model": "CS 2171 (common longer bar setups)", "mount_family": "D009/D008 (varies by bar)", "drive_links": 92, "climax_sku": "CLC73LP92" },
 { "brand": "Jonsered", "model": "CS 2166 (common longer bar setups)", "mount_family": "D009/D008 (varies by bar)", "drive_links": 92, "climax_sku": "CLC73LP92" },
 
-    /* =========================
-       ECHO (CONFIG-DEPENDENT — DO NOT ASSUME .058)
-       ========================= */
-
     { "brand": "Echo", "model": "CS-590 (config-dependent 3/8 .058 setup)", "mount_family": null, "drive_links": 84, "climax_sku": "CLC73LP84" },
     { "brand": "Echo", "model": "CS-620P (config-dependent 3/8 .058 setup)", "mount_family": null, "drive_links": 92, "climax_sku": "CLC73LP92" },
     { "brand": "Echo", "model": "CS-7310SX (config-dependent 3/8 .058 setup)", "mount_family": null, "drive_links": 92, "climax_sku": "CLC73LP92" },
     { "brand": "Echo", "model": "CS-7310SX (config-dependent longer bar)", "mount_family": null, "drive_links": 98, "climax_sku": "CLC73LP98" },
 
-    /* =========================
-       MAKITA / DOLMAR (CONFIG-DEPENDENT — DO NOT ASSUME .058)
-       ========================= */
-
     { "brand": "Makita", "model": "EA6100P (config-dependent 3/8 .058 setup)", "mount_family": null, "drive_links": 92, "climax_sku": "CLC73LP92" },
     { "brand": "Dolmar", "model": "PS-6100 (config-dependent 3/8 .058 setup)", "mount_family": null, "drive_links": 92, "climax_sku": "CLC73LP92" },
     { "brand": "Dolmar", "model": "PS-7300 (config-dependent 3/8 .058 setup)", "mount_family": null, "drive_links": 92, "climax_sku": "CLC73LP92" },
 
-    /* =========================
-       SHORTER / SPECIAL DLs (56/68/72)
-       These exist in the market but are highly setup-dependent.
-       ========================= */
-
     { "brand": "Generic", "model": "Short 3/8 .058 setup (bar-stamp verified)", "mount_family": null, "drive_links": 56, "climax_sku": "CLC73LP56" },
     { "brand": "Generic", "model": "Mid 3/8 .058 setup (bar-stamp verified)", "mount_family": null, "drive_links": 68, "climax_sku": "CLC73LP68" },
     { "brand": "Generic", "model": "Short 3/8 .058 setup (bar-stamp verified)", "mount_family": null, "drive_links": 72, "climax_sku": "CLC73LP72" },
-
-    /* =========================
-       GENERIC (CRITICAL COVERAGE)
-       ========================= */
 
     { "brand": "Generic", "model": "Any saw using 3/8 pitch + .058 gauge + 56DL", "mount_family": null, "drive_links": 56, "climax_sku": "CLC73LP56" },
     { "brand": "Generic", "model": "Any saw using 3/8 pitch + .058 gauge + 68DL", "mount_family": null, "drive_links": 68, "climax_sku": "CLC73LP68" },

@@ -23,10 +23,6 @@
   },
   "fits_with_models_full_json": [
 
-    /* =========================
-       STIHL (SMALL MOUNT)
-       ========================= */
-
     { "brand": "Stihl", "model": "MS162", "mount_family": "Stihl 3005 (A074/A041)", "drive_links": 44, "climax_sku": "CLC91NP44" },
     { "brand": "Stihl", "model": "MS170", "mount_family": "Stihl 3005 (A074/A041)", "drive_links": 44, "climax_sku": "CLC91NP44" },
     { "brand": "Stihl", "model": "MS171", "mount_family": "Stihl 3005 (A074/A041)", "drive_links": 44, "climax_sku": "CLC91NP44" },
@@ -58,10 +54,6 @@
     { "brand": "Stihl", "model": "MSE180", "mount_family": "Stihl 3005 (A074/A041)", "drive_links": 50, "climax_sku": "CLC91NP50" },
     { "brand": "Stihl", "model": "MSE210", "mount_family": "Stihl 3005 (A074/A041)", "drive_links": 56, "climax_sku": "CLC91NP56" },
 
-    /* =========================
-       HUSQVARNA
-       ========================= */
-
     { "brand": "Husqvarna", "model": "120 Mark II", "mount_family": "K095/Z095", "drive_links": 44, "climax_sku": "CLC91NP44" },
     { "brand": "Husqvarna", "model": "120i", "mount_family": "K095/Z095", "drive_links": 44, "climax_sku": "CLC91NP44" },
 
@@ -78,17 +70,9 @@
     { "brand": "Husqvarna", "model": "440", "mount_family": "K095/Z095", "drive_links": 64, "climax_sku": "CLC91NP64" },
     { "brand": "Husqvarna", "model": "445 (some kits)", "mount_family": "K095/Z095", "drive_links": 64, "climax_sku": "CLC91NP64" },
 
-    /* =========================
-       ECHO (HIGH PRIORITY)
-       ========================= */
-
     { "brand": "Echo", "model": "CS-310ES", "mount_family": null, "drive_links": 50, "climax_sku": "CLC91NP50" },
     { "brand": "Echo", "model": "CS-3510ES", "mount_family": null, "drive_links": 50, "climax_sku": "CLC91NP50" },
     { "brand": "Echo", "model": "CS-370ES", "mount_family": null, "drive_links": 56, "climax_sku": "CLC91NP56" },
-
-    /* =========================
-       BATTERY / ELECTRIC
-       ========================= */
 
     { "brand": "Makita", "model": "DUC254", "mount_family": null, "drive_links": 44, "climax_sku": "CLC91NP44" },
     { "brand": "Makita", "model": "DUC302", "mount_family": null, "drive_links": 50, "climax_sku": "CLC91NP50" },
@@ -108,10 +92,6 @@
 
     { "brand": "Greenworks", "model": "20312", "mount_family": null, "drive_links": 50, "climax_sku": "CLC91NP50" },
     { "brand": "Greenworks", "model": "20322", "mount_family": null, "drive_links": 50, "climax_sku": "CLC91NP50" },
-
-    /* =========================
-       GENERIC (CRITICAL COVERAGE)
-       ========================= */
 
     { "brand": "Generic", "model": "Any saw using 3/8 LP .050 44DL", "mount_family": null, "drive_links": 44, "climax_sku": "CLC91NP44" },
     { "brand": "Generic", "model": "Any saw using 3/8 LP .050 45DL", "mount_family": null, "drive_links": 45, "climax_sku": "CLC91NP45" },

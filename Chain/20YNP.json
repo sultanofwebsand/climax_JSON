@@ -18,10 +18,6 @@
   },
   "fits_with_models_full_json": [
 
-    /* =========================
-       HUSQVARNA (COMMON .325 .050 COVERAGE)
-       ========================= */
-
     { "brand": "Husqvarna", "model": "435 (common .325 .050 setups)", "mount_family": "K095/Z095 (varies by bar)", "drive_links": 72, "climax_sku": "CLC20YNP72" },
     { "brand": "Husqvarna", "model": "435e (common .325 .050 setups)", "mount_family": "K095/Z095 (varies by bar)", "drive_links": 72, "climax_sku": "CLC20YNP72" },
 
@@ -36,10 +32,6 @@
     { "brand": "Husqvarna", "model": "135 Mark II (config-dependent .325 setup)", "mount_family": "K095/Z095 (varies by bar)", "drive_links": 64, "climax_sku": "CLC20YNP64" },
     { "brand": "Husqvarna", "model": "135 Mark II (config-dependent longer bar)", "mount_family": "K095/Z095 (varies by bar)", "drive_links": 72, "climax_sku": "CLC20YNP72" },
 
-    /* =========================
-       ECHO (HIGH PRIORITY — CONFIG-DEPENDENT)
-       ========================= */
-
     { "brand": "Echo", "model": "CS-390ESX (common .325 .050 setups)", "mount_family": null, "drive_links": 64, "climax_sku": "CLC20YNP64" },
     { "brand": "Echo", "model": "CS-390ESX (common longer bar setups)", "mount_family": null, "drive_links": 72, "climax_sku": "CLC20YNP72" },
 
@@ -49,10 +41,6 @@
     { "brand": "Echo", "model": "CS-4510ES (config-dependent .325 .050 setup)", "mount_family": null, "drive_links": 72, "climax_sku": "CLC20YNP72" },
     { "brand": "Echo", "model": "CS-4510ES (config-dependent longer bar)", "mount_family": null, "drive_links": 80, "climax_sku": "CLC20YNP80" },
 
-    /* =========================
-       MAKITA / DOLMAR (CONFIG-DEPENDENT)
-       ========================= */
-
     { "brand": "Makita", "model": "EA4300F (common .325 .050 setups)", "mount_family": null, "drive_links": 64, "climax_sku": "CLC20YNP64" },
     { "brand": "Makita", "model": "EA4300F (common longer bar setups)", "mount_family": null, "drive_links": 72, "climax_sku": "CLC20YNP72" },
 
@@ -61,10 +49,6 @@
 
     {"brand": "Poulan", "model": "PR4218", "mount_family": null, "drive_links": 72, "climax_sku": "CLC20YNP72"},
     {"brand": "Poulan", "model": "PR4218", "mount_family": null, "drive_links": 80, "climax_sku": "CLC20YNP80"},
-
-    /* =========================
-       GENERIC (CRITICAL COVERAGE)
-       ========================= */
 
     { "brand": "Generic", "model": "Any saw using .325 pitch + .050 gauge + 56DL", "mount_family": null, "drive_links": 56, "climax_sku": "CLC20YNP56" },
     { "brand": "Generic", "model": "Any saw using .325 pitch + .050 gauge + 64DL", "mount_family": null, "drive_links": 64, "climax_sku": "CLC20YNP64" },

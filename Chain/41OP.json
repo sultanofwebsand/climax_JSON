@@ -15,19 +15,12 @@
   },
   "fits_with_models_full_json": [
 
-    /* =========================
-       HUSQVARNA (PRIMARY ACCURATE COVERAGE)
-       ========================= */
-
     { "brand": "Husqvarna", "model": "525PT5S", "mount_family": null, "drive_links": 58, "climax_sku": "CLC41OP58" },
     { "brand": "Husqvarna", "model": "327PT5S", "mount_family": null, "drive_links": 58, "climax_sku": "CLC41OP58" },
     { "brand": "Husqvarna", "model": "530iPT5", "mount_family": null, "drive_links": 58, "climax_sku": "CLC41OP58" },
     { "brand": "Husqvarna", "model": "536LiP4", "mount_family": null, "drive_links": 58, "climax_sku": "CLC41OP58" },
     { "brand": "Husqvarna", "model": "536LiPT5", "mount_family": null, "drive_links": 58, "climax_sku": "CLC41OP58" },
 
-    /* =========================
-       ECHO (VERIFIED PLATFORM — CONFIG-DEPENDENT)
-       ========================= */
 { "brand": "Echo", "model": "CS-360TES (config-dependent 1/4 .050 setup)", "mount_family": null, "drive_links": 58, "climax_sku": "CLC41OP58" },
 { "brand": "Echo", "model": "CS-360WES (config-dependent 1/4 .050 setup)", "mount_family": null, "drive_links": 58, "climax_sku": "CLC41OP58" },
 
@@ -39,10 +32,6 @@
 { "brand": "Echo", "model": "CS-304VL (config-dependent 1/4 .050 setup)", "mount_family": null, "drive_links": 58, "climax_sku": "CLC41OP58" },
 { "brand": "Echo", "model": "CS-351 (config-dependent 1/4 .050 setup)", "mount_family": null, "drive_links": 58, "climax_sku": "CLC41OP58" },
 { "brand": "Echo", "model": "CS-351VL (config-dependent 1/4 .050 setup)", "mount_family": null, "drive_links": 58, "climax_sku": "CLC41OP58" }
-
-    /* =========================
-       GENERIC (CRITICAL COVERAGE)
-       ========================= */
 
     { "brand": "Generic", "model": "Any saw using 1/4 pitch + .050 gauge + 58DL", "mount_family": null, "drive_links": 58, "climax_sku": "CLC41OP58" }
   ]

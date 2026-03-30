@@ -16,10 +16,6 @@
   },
   "fits_with_models_full_json": [
 
-    /* =========================
-       STIHL (VERIFIED)
-       ========================= */
-
     { "brand": "Stihl", "model": "MS150", "mount_family": null, "drive_links": 64, "climax_sku": "CLC40OP64" },
     { "brand": "Stihl", "model": "MS150T", "mount_family": null, "drive_links": 64, "climax_sku": "CLC40OP64" },
 
@@ -29,10 +25,6 @@
     { "brand": "Stihl", "model": "HT 130 Pole Pruner", "mount_family": null, "drive_links": 72, "climax_sku": "CLC40OP72" },
     { "brand": "Stihl", "model": "HT 131 Pole Pruner", "mount_family": null, "drive_links": 72, "climax_sku": "CLC40OP72" },
 
-    /* =========================
-       ECHO (VERIFIED CORE)
-       ========================= */
-
     { "brand": "Echo", "model": "CS-2511TES", "mount_family": null, "drive_links": 64, "climax_sku": "CLC40OP64" },
     { "brand": "Echo", "model": "CS-2511TESC", "mount_family": null, "drive_links": 64, "climax_sku": "CLC40OP64" },
     { "brand": "Echo", "model": "CS-2511WES", "mount_family": null, "drive_links": 64, "climax_sku": "CLC40OP64" },
@@ -40,10 +32,6 @@
 
     { "brand": "Echo", "model": "CS-280TES", "mount_family": null, "drive_links": 64, "climax_sku": "CLC40OP64" },
     { "brand": "Echo", "model": "DCS-2500T", "mount_family": null, "drive_links": 64, "climax_sku": "CLC40OP64" },
-
-    /* =========================
-       GENERIC (CRITICAL COVERAGE)
-       ========================= */
 
     { "brand": "Generic", "model": "Any saw using 1/4 pitch + .043 gauge + 64DL", "mount_family": null, "drive_links": 64, "climax_sku": "CLC40OP64" },
     { "brand": "Generic", "model": "Any saw using 1/4 pitch + .043 gauge + 72DL", "mount_family": null, "drive_links": 72, "climax_sku": "CLC40OP72" }
